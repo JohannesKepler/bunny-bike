@@ -10,11 +10,6 @@ from datetime import datetime
 
 # consider pulling this info from a csv file
 # need to incorporate numpy?
-BUS_INFO = {"routes": {"4000088": "5", "4003038": "14", "4009216": "100", "4009218": "105",
-                       "4009224": "300", "4009222": "301", "4009226": "305", "4009228": "311",
-                       "4009242": "700", "4009252": "800", "4009244": "805"},
-            "stops": {"4213502": "5517", "4049762": "5020", "4050718": "5363", "4049498": "1175"}
-            }
 
 # add your private API keys here. you can use a text file to store them like me, or just add them directly
 try:
@@ -54,13 +49,11 @@ def update_weather():
     return (conditions_today, current_temp, high_today, wind)
 
 # is it better to search a lat/long coordinate system and search results by the "name" key? need to learn how to search results by key!
-def update_gotriangle(stop_id = "4213502", route_id = "4009244"):
-    bus_number = BUS_INFO['routes'][route_id]
-    stop_code = BUS_INFO['stops'][stop_id]
+def update_gotriangle(stop_id, route_id, current_hour, current_minute):
     # add &stops=#######%2C#######%2C####### and fill in #'s if you want specific stops
     # see stop_id.csv for list of stops
     # see route_id.csv for list of routes
-    response = unirest.get("https://transloc-api-1-2.p.mashape.com/arrival-estimates.json?agencies=12%2C24&callback=call&routes=4000088%2C4003038%2C4009216%2C4009218%2C4009224%2C4009222%2C4009226%2C4009228%2C4009242%2C4009252%2C4009244", headers={
+    response = unirest.get("https://transloc-api-1-2.p.mashape.com/arrival-estimates.json?agencies=12%2C24&callback=call&routes=" + route_id, headers={
     "X-Mashape-Key": x_mashape_key,
     "Accept": "application/json"
     }
@@ -70,7 +63,6 @@ def update_gotriangle(stop_id = "4213502", route_id = "4009244"):
     # default arrival_time to an error message. it will be overwritten if possible, otherwise
     # function will return the error message
     # this needs work lol
-    arrival_time = "ERR: NO BUS"
 
     stop_list = response.body['data']
     for stop in stop_list:
@@ -78,7 +70,10 @@ def update_gotriangle(stop_id = "4213502", route_id = "4009244"):
             for arrival in stop['arrivals']:
                 if arrival['route_id'] == route_id:
                     arrival_time = datetime.strptime(arrival['arrival_at'], '%Y-%m-%dT%H:%M:%S-04:00')
-                    break
+                    arrival_minute = arrival_time.minute + 60 * (arrival_time.hour - current_hour)
+                    next_bus = arrival_minute - current_minute
+                    return next_bus
+    return "NO BUS ARR"
 #            else:
 #                # in main.py, check if type(next_bus) == string
 #                return "ERR: NO BUS"
@@ -86,15 +81,6 @@ def update_gotriangle(stop_id = "4213502", route_id = "4009244"):
 #        else:
 #            # in durham_main.py, check if type(next_bus) == string
 #            return "ERR: NO BUS"
-    if type(arrival_time) == str:
-        return arrival_time
-    else:
-        current_time = datetime.now()
-        current_hour = current_time.hour
-        current_minute = current_time.minute
-        arrival_minute = arrival_time.minute + 60 * (arrival_time.hour - current_hour)
-        next_bus = arrival_minute - current_minute
-        return next_bus, bus_number, stop_code
 
 def update_result(current_temp, high_today, conditions_today, wind, next_bus):
     # parameters:
