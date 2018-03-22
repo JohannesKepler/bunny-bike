@@ -96,6 +96,5 @@ while 1:
 #    if (current_hour >= 6 and current_hour <= 9) and (current_minute == 0 or current_minute == 30) and error_check == 0:
 #        result = update_result(current_temp, high_today, conditions_today, wind, trip_time_bus, trip_time_subway)
 #        move_servo(result)
-    weather_update = (weather_update + 1) % 60
-    second_counter += 60
+    second_counter = (second_counter + 60) % 86400
     sleep(60)

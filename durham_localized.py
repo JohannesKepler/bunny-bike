@@ -16,9 +16,18 @@ BUS_INFO = {"routes": {"4000088": "5", "4003038": "14", "4009216": "100", "40092
             "stops": {"4213502": "5517", "4049762": "5020", "4050718": "5363", "4049498": "1175"}
             }
 
-# add your private API keys here
-wunderground_key = ""
-x_mashape_key = ""
+# add your private API keys here. you can use a text file to store them like me, or just add them directly
+try:
+    api_file = open("/home/pi/Documents/waldbauer_api.txt", "r")
+    for line in api_file:
+        current_line = line.split(",")
+        if current_line[0] == "wunderground_key":
+            wunderground_key = current_line[1].strip('\r\n')
+        elif current_line[0] == "x_mashape_key":
+            x_mashape_key = current_line[1].strip('\r\n')
+except:
+    wunderground_key = ""
+    x_mashape_key = ""
 
 def update_weather():
     f = requests.get('http://api.wunderground.com/api/' + wunderground_key + '/forecast/q/NC/Durham.json')
