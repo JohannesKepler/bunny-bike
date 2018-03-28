@@ -3,12 +3,16 @@
 
 from datetime import datetime
 from time import sleep
-import os
-import numpy as np
+import os, sys
 import durham_localized
 import generate_transit_data
 #from subprocess import *
 import Adafruit_CharLCD as LCD
+
+if 'win' in sys.platform:
+    path_marker = '\\'
+else:
+    path_marker = '/'
 
 # Raspberry Pi LCD pin configuration:
 lcd_rs        = 27
@@ -64,64 +68,58 @@ BUS_PICK_LIST = ["5", "800", "805", "100", "105"]
 STOP_PICK_LIST = ["5517", "5020", "5363", "1175"]
 
 cwd = os.getcwd()
-if not os.path.exists(cwd + '\\route_info.csv'):
+if not os.path.exists(cwd + path_marker + 'route_info.csv'):
     generate_transit_data.generate_transit_data(AGENCIES)
 route_list = []
+
+# create route list from csv.
+# i'm combining the first two elements. not sure that is necessary...
 f = open("route_info.csv", "r")
 for route in f:
-    route_list.append(route)
+    if route[0:8] == "Route ID":
+        continue
+    route_split = route.split(',')
+    route_list.append(route_split)
+    route_list[-1][0] = [route_list[-1][0]]
+    route_list[-1][0].append(route_list[-1][1])
 f.close()
 
+# create stop list from csv
 stop_list = []
 f = open("stop_info.csv", "r")
 for stop in f:
-    stop_list.append(stop)
+    if stop[0:7] == "Stop ID":
+        continue
+    stop_split = stop.split(',')
+    stop_list.append(stop_split)
 f.close()
 
-STOP_DICT2 = {}
-# incorporate numpy so the header row is ignored in this loop
-for route in route_list:
-    STOP_DICT2[route[0]] = route[3:]
+# combine stop ids (which are in route list) with their code
+for route_idx1 in range(len(route_list)):
+    for stops_in_route_list in range(3, len(route_list[route_idx1])):
+        for stop_idx in stop_list:
+            if stop_idx[0] == route_list[route_idx1][stops_in_route_list]:
+                route_list[route_idx1][stops_in_route_list] = [route_list[route_idx1][stops_in_route_list], stop_idx][1]
 
-# i should generate these with code rather than typing it all out
-# use the lists generated from the csv files
-# end goal is one dictionary that looks like STOP_DICT below, where the route is the key
-# and the stops are the values. Also, each key and value is a list-pair tying the
-# common name to the ID
-BUS_LIST = [["4000088","5"], ["4003038","14"], ["4009216","100"], ["4009218","105"],
-            ["4009224","300"], ["4009222","301"], ["4009226","305"], ["4009228","311"],
-            ["4009242","700"], ["4009252","800"], ["4009244","805"]]
-STOP_DICT = {["4000088","5"]: [["4213502","5517"], ["4049762","5020"]],
-             ["4003038","14"]: [],
-             ["4009216","100"]: [],
-             ["4009218","105"]: [],
-             ["4009224","300"]: [],
-             ["4009222","301"]: [],
-             ["4009226","305"]: [],
-             ["4009228","311"]: [],
-             ["4009242","700"]: [],
-             ["4009252","800"]: [["4213502","5517"], ["4049762","5020"], ["4050718","5363"], ["4049498","1175"]],
-             ["4009244","805"]: [["4213502","5517"], ["4049762","5020"], ["4050718","5363"], ["4049498","1175"]]}
-#BUS_INFO = {"routes": {"4000088": "5", "4003038": "14", "4009216": "100", "4009218": "105",
-#                       "4009224": "300", "4009222": "301", "4009226": "305", "4009228": "311",
-#                       "4009242": "700", "4009252": "800", "4009244": "805"},
-#            "stops": {"4213502": "5517", "4049762": "5020", "4050718": "5363", "4049498": "1175"}
-#            }
-#BUS_INFO2 = {"routes": [["4000088","5"], ["4003038","14"], ["4009216","100"], ["4009218","105"],
-#                       ["4009224","300"], ["4009222","301"], ["4009226","305"], ["4009228","311"],
-#                       ["4009242","700"], ["4009252","800"], ["4009244","805"]],
-#            "stops": [["4213502","5517"], ["4049762","5020"], ["4050718","5363"], ["4049498","1175"]]}
-
-# only want to update weather once an hour (500/day API limit)
-second_counter = 0
-button1 = 10 # 10 is 805
+button1 = 2 # 10 is 805
 button2 = 0 # 0 is 5517
 # initialize info
-route_id = BUS_PICK_LIST[button1]
-#route_name = BUS_LIST[button1]
-# need to step through stops in the route_info.csv
-stop_id = STOP_PICK_LIST[button2]
-#stop_name = STOP_DICT[route_name][button2]
+route_name = BUS_PICK_LIST[button1]
+for route in route_list:
+    if route_name == route[0][1]:
+        route_id = route[0][0]
+
+# NEED TO DO:
+# need a new stop pick list each time route is iterated by button press.
+# each route only has a subset of stops that i care about.
+# need to say: stops = stops of the selected route, if they are in the pick_list
+
+stop_code = STOP_PICK_LIST[button2]
+for stop in stop_list:
+    if stop[1] == stop_code:
+        stop_id = stop[0]
+
+second_counter = 0
 
 while 1:
 #    # code for button presses
@@ -155,7 +153,7 @@ while 1:
                 last_hour = current_hour
                 last_minute = current_minute
 
-    # WUnderground API Usage Limit: 500/day, 10/minute
+    # WUnderground API Usage Limit: 500/day, 10/minute. Update 1/hour
     if (second_counter % 360) == 0:
         try:
             conditions_today, current_temp, high_today, wind = durham_localized.update_weather()
