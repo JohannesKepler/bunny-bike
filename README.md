@@ -12,19 +12,19 @@ I used a Raspberry Pi Zero with the latest Raspbian OS. I don't think any atypic
 ## Get Adafruit_Python_CharLCD:
 NOTE: Installing this may also install Adafruit_Python_GPIO (below) automatically. This library will run both the LCD and the servo.
 ````
-sudo apt-get update
-sudo apt-get install build-essential python-pip python-dev python-smbus git
-sudo pip install RPi.GPIO
-git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git
-cd Adafruit_Python_CharLCD
-sudo python setup.py install
+$ sudo apt-get update
+$ sudo apt-get install build-essential python-pip python-dev python-smbus git
+$ sudo pip install RPi.GPIO
+$ git clone https://github.com/adafruit/Adafruit_Python_CharLCD.git
+$ cd Adafruit_Python_CharLCD
+$ sudo python setup.py install
 ````
 ## Get Adafruit_Python_GPIO:
 ````
-sudo apt-get update
-git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
-cd Adafruit_Python_GPIO
-sudo python setup.py install
+$ sudo apt-get update
+$ git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
+$ cd Adafruit_Python_GPIO
+$ sudo python setup.py install
 ````
 ## Get your API keys
 Go to Weather Underground and your local transit agency and obtain private API keys. GoTriangle uses Mashape: https://market.mashape.com/transloc/openapi-1-2
