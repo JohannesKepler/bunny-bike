@@ -5,7 +5,7 @@ Created on Sun Jun 19 15:36:03 2016
 """
 
 import requests
-import unirest
+#import unirest
 from datetime import datetime
 
 # consider pulling this info from a csv file
@@ -13,18 +13,23 @@ from datetime import datetime
 
 # add your private API keys here. you can use a text file to store them like me, or just add them directly
 try:
-    api_file = open("/home/pi/Documents/waldbauer_api.txt", "r")
+    api_file = open("waldbauer_api.txt", "r")
     for line in api_file:
         current_line = line.split(",")
         if current_line[0] == "wunderground_key":
             wunderground_key = current_line[1].strip('\r\n')
         elif current_line[0] == "x_mashape_key":
             x_mashape_key = current_line[1].strip('\r\n')
+    api_file.close()
 except:
     wunderground_key = ""
     x_mashape_key = ""
 
 def update_weather():
+    """API call to Weather Underground for the local (Durham) weather.
+    Takes no inputs, outputs a tuple:
+    (today's weather, current temp, today's high temp, today's windspeed)
+    """
     f = requests.get('http://api.wunderground.com/api/' + wunderground_key + '/forecast/q/NC/Durham.json')
     f2 = requests.get('http://api.wunderground.com/api/' + wunderground_key + '/geolookup/conditions/q/NC/Durham.json')
 
@@ -50,21 +55,28 @@ def update_weather():
 
 # is it better to search a lat/long coordinate system and search results by the "name" key? need to learn how to search results by key!
 def update_gotriangle(stop_id, route_id, current_hour, current_minute):
-    # add &stops=#######%2C#######%2C####### and fill in #'s if you want specific stops
+    """API call to the Mashape OpenAPI transit API used by transloc
+    Takes as inputs: (stop ID, route ID, the hour now, the minute now)
+    Returns as output an integer of minutes until the next bus arrives at the stop
+    """
     # see stop_id.csv for list of stops
     # see route_id.csv for list of routes
-    response = unirest.get("https://transloc-api-1-2.p.mashape.com/arrival-estimates.json?agencies=12%2C24&callback=call&routes=" + route_id, headers={
+    # requests not currently working with gotriangle?
+    f = requests.get("https://transloc-api-1-2.p.mashape.com/arrival-estimates.json?agencies=12%2C24&callback=call&routes=" + route_id, headers={
     "X-Mashape-Key": x_mashape_key,
     "Accept": "application/json"
     }
     )
-
-    # consider moving time calculations to main.py
+    
+    gotriangle_json = f.json()
+    
+    # sometimes current minute is a string
+    current_minute = int(current_minute)
     # default arrival_time to an error message. it will be overwritten if possible, otherwise
     # function will return the error message
     # this needs work lol
 
-    stop_list = response.body['data']
+    stop_list = gotriangle_json['data']
     for stop in stop_list:
         if stop['stop_id'] == stop_id:
             for arrival in stop['arrivals']:
