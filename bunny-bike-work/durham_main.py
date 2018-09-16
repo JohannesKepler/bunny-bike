@@ -1,13 +1,10 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 20 08:10:46 2018
-
-@author: bw5177
-"""
 
 # test bike clock program with stdout rather than LCD screen
 # look up:
 # http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio
+
 from datetime import datetime
 from time import sleep
 import os, sys
@@ -139,6 +136,20 @@ second_counter = 0
 bus_error = 0
 weather_error = 0
 while 1:
+#    # code for button presses
+#    if button1_is_pressed:
+#        button1 = (button1 + 1) % len(BUS_LIST)
+#        route_id = BUS_LIST[button1][0]
+#        route_name = BUS_LIST[button1][1]
+#        # reset stop list
+#        button2 = 0
+#        stop_id = STOP_DICT[route_name][button2][0]
+#        stop_name = STOP_DICT[route_name][button2][1]
+#    if button2_is_pressed:
+#        button2 = (button2 + 1) % len(STOP_DICT[route_name])
+#        stop_id = STOP_DICT[route_name][button2][0]
+#        stop_name = STOP_DICT[route_name][button2][1]
+
     # GoTriangle API Usage Limit: unknown!
     if (second_counter % 60) == 0:
         current_time = datetime.now()
@@ -147,7 +158,8 @@ while 1:
         if len(current_minute) == 1:
             current_minute = '0' + current_minute
         try:
-            next_bus = durham_localized.update_gotriangle(picked_stop, picked_route, current_hour, current_minute)
+            next_bus = durham_localized.update_gotriangle(picked_stop, picked_route,
+                                                          current_hour, current_minute)
             bus_error = 0
         except:
             bus_error += 1
@@ -155,7 +167,7 @@ while 1:
                 last_hour = current_hour
                 last_minute = current_minute
 
-    # WUnderground API Usage Limit: 500/day, 10/minute
+    # WUnderground API Usage Limit: 500/day, 10/minute. Update 1/hour
     if (second_counter % 360) == 0:
         try:
             conditions_today, current_temp, high_today, wind = durham_localized.update_weather()
@@ -163,21 +175,27 @@ while 1:
         except:
             weather_error += 1
 
+    lcd.clear()
+
     if bus_error > 0 and weather_error == 0:
-        print('%d:%s BUS ERROR\n%d deg %s' % (current_hour, current_minute, current_temp, conditions_today))
+        lcd.message('%d:%s BUS ERROR\n%d deg %s' % (current_hour, current_minute,
+                                                    current_temp, conditions_today))
     elif weather_error > 0 and bus_error == 0:
-        print("%d:%s %s: %d\nWEATHER ERROR" % (current_hour, current_minute, picked_route[1], next_bus))
+        lcd.message("%d:%s %s: %d\nWEATHER ERROR" % (current_hour, current_minute,
+                                                     picked_route[1], next_bus))
     elif weather_error > 0 and bus_error > 0:
-        print("%d:%s BUS ERROR\nWEATHER ERROR" % (current_hour, current_minute))
+        lcd.message("%d:%s BUS ERROR\nWEATHER ERROR" % (current_hour, current_minute))
     elif type(next_bus) == str:
-        print("%d:%s %s\n%d deg %s" % (current_hour, current_minute, next_bus, current_temp, conditions_today))
+        lcd.message("%d:%s %s\n%d deg %s" % (current_hour, current_minute,
+                                             next_bus, current_temp, conditions_today))
     else:
         # \x01F is the marker for the degree symbol created earlier
-        print("%d:%s %s: %dm\n%d deg %s" %
-                    (current_hour, current_minute, route_name, next_bus, current_temp, conditions_today), end='\n')
+        lcd.message("%d:%s %s: %dm\n%d deg %s" %
+                    (current_hour, current_minute, route_name,
+                     next_bus, current_temp, conditions_today))
 
 #    if (current_hour >= 6 and current_hour <= 9) and (current_minute == 0 or current_minute == 30) and error_check == 0:
 #        result = update_result(current_temp, high_today, conditions_today, wind, trip_time_bus, trip_time_subway)
 #        move_servo(result)
-    second_counter = (second_counter + 1) % 86400
-    sleep(1)
+    second_counter = (second_counter + 60) % 86400
+    sleep(60)

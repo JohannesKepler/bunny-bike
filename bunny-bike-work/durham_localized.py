@@ -5,7 +5,7 @@ Created on Sun Jun 19 15:36:03 2016
 """
 
 import requests
-import unirest
+#import unirest
 from datetime import datetime
 
 # consider pulling this info from a csv file
@@ -61,18 +61,22 @@ def update_gotriangle(stop_id, route_id, current_hour, current_minute):
     """
     # see stop_id.csv for list of stops
     # see route_id.csv for list of routes
-    response = unirest.get("https://transloc-api-1-2.p.mashape.com/arrival-estimates.json?agencies=12%2C24&callback=call&routes=" + route_id, headers={
+    # requests not currently working with gotriangle?
+    f = requests.get("https://transloc-api-1-2.p.mashape.com/arrival-estimates.json?agencies=12%2C24&callback=call&routes=" + route_id, headers={
     "X-Mashape-Key": x_mashape_key,
     "Accept": "application/json"
     }
     )
+    
+    gotriangle_json = f.json()
+    
     # sometimes current minute is a string
     current_minute = int(current_minute)
     # default arrival_time to an error message. it will be overwritten if possible, otherwise
     # function will return the error message
     # this needs work lol
 
-    stop_list = response.body['data']
+    stop_list = gotriangle_json['data']
     for stop in stop_list:
         if stop['stop_id'] == stop_id:
             for arrival in stop['arrivals']:
