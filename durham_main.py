@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# test bike clock program with stdout rather than LCD screen
+# test bike clock program with LCD screen
 # look up:
 # http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio
 
@@ -10,6 +10,43 @@ from time import sleep
 import os, sys
 import durham_localized
 import generate_transit_data
+import Adafruit_CharLCD as LCD
+#import RPi.GPIO as GPIO
+
+#GPIO.setmode(GPIO.BCM)
+
+# Initialize gpio
+#gpio = LCD.GPIO.RPiGPIOAdapter(rpi_gpio=LCD.GPIO.get_platform_gpio())
+gpio = LCD.GPIO.get_platform_gpio()
+#rpi_gpio.setmode(rpi_gpio.BCM)
+#gpio = LCD.GPIO.RPiGPIOAdapter(rpi_gpio=rpi_gpio, mode=rpi_gpio.BCM)
+
+# initialize buttons
+gpio.setup(11, LCD.GPIO.IN, pull_up_down=LCD.GPIO.PUD_UP)
+gpio.setup(12, LCD.GPIO.IN, pull_up_down=LCD.GPIO.PUD_UP)
+
+# Raspberry Pi LCD pin configuration:
+lcd_rs        = 27
+lcd_en        = 22
+lcd_d4        = 25
+lcd_d5        = 24
+lcd_d6        = 23
+lcd_d7        = 18 # change to 17 to accommodate servo on 18, if necessary
+lcd_backlight = 4
+
+# Define LCD column and row size for 16x2 LCD.
+lcd_columns = 16
+lcd_rows = 2
+
+# Initialize the LCD using the pins above.
+lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7,
+                           lcd_columns, lcd_rows, lcd_backlight)
+
+# create the degree symbol, use with \x01F
+lcd.create_char(1, [12, 18, 18, 12, 0, 0, 0, 0])
+
+# initialize servo
+p = LCD.PWM.get_platform_pwm()
 
 if 'win' in sys.platform:
     path_marker = '\\'
@@ -80,122 +117,134 @@ pared_stop_list = [key for key in picked_stops_on_route]
 picked_stop = picked_stops_on_route[pared_stop_list[0]]
 
 
-def button1_press():
+def button1_press(channel):
     """GPIO input from user.
     Cycle through routes.
     """
-    global button1
-    global button2
-    global picked_route
-    # to-do: how much needs to be global?
-    print("Select route:\n")
-    for route in BUS_PICK_LIST:
-        if BUS_PICK_LIST[button1] == route:
-            print("*" + route + "*",end='\r')
-        else:
-            print(route,end='\r')
-    print()
+    lcd.clear()
+    lcd.message("You pressed\nButton 1!")
+    sleep(2)
+#    global button1
+#    global button2
+#    global picked_route
+#    # to-do: how much needs to be global?
+#    print("Select route:\n")
+#    for route in BUS_PICK_LIST:
+#        if BUS_PICK_LIST[button1] == route:
+#            print("*" + route + "*")
+#        else:
+#            print(route)
+#    print()
     # only want to increment button1 if button pressed again within these 5 seconds
-    sleep(5)
-    route_name = BUS_PICK_LIST[button1]
-    for route in route_dict:
-        if route_name == route_dict[route][0]:
-            picked_route = route
-            break
-    button1 = (button1 + 1) % len(BUS_PICK_LIST)
+#    sleep(5)
+#    route_name = BUS_PICK_LIST[button1]
+#    for route in route_dict:
+#        if route_name == route_dict[route][0]:
+#            picked_route = route
+#            break
+#    button1 = (button1 + 1) % len(BUS_PICK_LIST)
     # call up new stop list? or default to first stop and don't ask until button 2 pressed?
-    button2 = 0
-    button2_press()
+#    button2 = 0
+#    button2_press(channel)
 
-def button2_press():
+def button2_press(channel):
     """GPIO input from user.
     Cycle through stops.
     """
+    lcd.clear()
+    lcd.message("You pressed\nButton 2!")
+    sleep(2)
     # to-do: how much needs to be global?
-    global button2
-    global pared_stop_list
-    global picked_stop
-    print("Select stop:\n")
-    for stop in pared_stop_list:
-        if pared_stop_list[button2] == stop:
-            print("*" + stop + "*",end='\r')
-        else:
-            print(stop,end='\r')
-    print()
+#    global button2
+#    global pared_stop_list
+#    global picked_stop
+#    print("Select stop:\n")
+#    for stop in pared_stop_list:
+#        if pared_stop_list[button2] == stop:
+#            print("*" + stop + "*")
+#        else:
+#            print(stop)
+#    print()
     # only want to increment button2 if button pressed again within these 5 seconds
-    sleep(5)
-    picked_stops_on_route = {}
-    for stop in pared_stop_dict:
-        if pared_stop_dict[stop] in route_dict[picked_route]:
-            picked_stops_on_route[stop] = pared_stop_dict[stop]
-    pared_stop_list = [key for key in pared_stop_dict]
-    picked_stop = picked_stops_on_route[STOP_PICK_LIST[button2]]
-    button2 = (button2 + 1) % len(pared_stop_list)
+#    sleep(5)
+#    picked_stops_on_route = {}
+#    for stop in pared_stop_dict:
+#        if pared_stop_dict[stop] in route_dict[picked_route]:
+#            picked_stops_on_route[stop] = pared_stop_dict[stop]
+#    pared_stop_list = [key for key in pared_stop_dict]
+#    picked_stop = picked_stops_on_route[STOP_PICK_LIST[button2]]
+#    button2 = (button2 + 1) % len(pared_stop_list)
 
+# initialize some variables for the while loop
 second_counter = 0
 bus_error = 0
 weather_error = 0
-while 1:
-#    # code for button presses
-#    if button1_is_pressed:
-#        button1 = (button1 + 1) % len(BUS_LIST)
-#        route_id = BUS_LIST[button1][0]
-#        route_name = BUS_LIST[button1][1]
-#        # reset stop list
-#        button2 = 0
-#        stop_id = STOP_DICT[route_name][button2][0]
-#        stop_name = STOP_DICT[route_name][button2][1]
-#    if button2_is_pressed:
-#        button2 = (button2 + 1) % len(STOP_DICT[route_name])
-#        stop_id = STOP_DICT[route_name][button2][0]
-#        stop_name = STOP_DICT[route_name][button2][1]
+lcd.clear()
 
-    # GoTriangle API Usage Limit: unknown!
-    if (second_counter % 60) == 0:
-        current_time = datetime.now()
-        current_hour = current_time.hour
-        current_minute = str(current_time.minute)
-        if len(current_minute) == 1:
-            current_minute = '0' + current_minute
-        try:
-            next_bus = durham_localized.update_gotriangle(picked_stop, picked_route,
-                                                          current_hour, current_minute)
-            bus_error = 0
-        except:
-            bus_error += 1
-            if bus_error == 1:
-                last_hour = current_hour
-                last_minute = current_minute
 
-    # WUnderground API Usage Limit: 500/day, 10/minute. Update 1/hour
-    if (second_counter % 360) == 0:
-        try:
-            conditions_today, current_temp, high_today, wind = durham_localized.update_weather()
-            weather_error = 0
-        except:
-            weather_error += 1
+# add event listeners once
+gpio.add_event_detect(11, LCD.GPIO.FALLING, callback=button1_press, bouncetime=250)
+gpio.add_event_detect(12, LCD.GPIO.FALLING, callback=button2_press, bouncetime=250)
 
-    lcd.clear()
+try:
+	while True:
+		# GoTriangle API Usage Limit: unknown!
+		if (second_counter % 60) == 0:
+			current_time = datetime.now()
+			current_hour = current_time.hour
+			current_minute = str(current_time.minute)
+			if len(current_minute) == 1:
+				current_minute = '0' + current_minute
+			try:
+				next_bus = durham_localized.update_gotriangle(picked_stop, picked_route,
+															  current_hour, current_minute)
+				bus_error = 0
+			except:
+				bus_error += 1
+				if bus_error == 1:
+					last_hour = current_hour
+					last_minute = current_minute
 
-    if bus_error > 0 and weather_error == 0:
-        lcd.message('%d:%s BUS ERROR\n%d deg %s' % (current_hour, current_minute,
-                                                    current_temp, conditions_today))
-    elif weather_error > 0 and bus_error == 0:
-        lcd.message("%d:%s %s: %d\nWEATHER ERROR" % (current_hour, current_minute,
-                                                     picked_route[1], next_bus))
-    elif weather_error > 0 and bus_error > 0:
-        lcd.message("%d:%s BUS ERROR\nWEATHER ERROR" % (current_hour, current_minute))
-    elif type(next_bus) == str:
-        lcd.message("%d:%s %s\n%d deg %s" % (current_hour, current_minute,
-                                             next_bus, current_temp, conditions_today))
-    else:
-        # \x01F is the marker for the degree symbol created earlier
-        lcd.message("%d:%s %s: %dm\n%d deg %s" %
-                    (current_hour, current_minute, route_name,
-                     next_bus, current_temp, conditions_today))
+		# WUnderground API Usage Limit: 500/day, 10/minute. Update 1/hour
+		if (second_counter % 360) == 0:
+			try:
+				conditions_today, current_temp, high_today, wind = durham_localized.update_weather()
+				weather_error = 0
+			except:
+				weather_error += 1
 
-#    if (current_hour >= 6 and current_hour <= 9) and (current_minute == 0 or current_minute == 30) and error_check == 0:
-#        result = update_result(current_temp, high_today, conditions_today, wind, trip_time_bus, trip_time_subway)
-#        move_servo(result)
-    second_counter = (second_counter + 60) % 86400
-    sleep(60)
+		lcd.clear()
+
+		if bus_error > 0 and weather_error == 0:
+			lcd.message('%d:%s BUS ERROR\n%d deg %s' % (current_hour, current_minute,
+														current_temp, conditions_today))
+		elif weather_error > 0 and bus_error == 0:
+			lcd.message("%d:%s %s: %d\nWEATHER ERROR" % (current_hour, current_minute,
+														 picked_route[1], next_bus))
+		elif weather_error > 0 and bus_error > 0:
+			lcd.message("%d:%s BUS ERROR\nWEATHER ERROR" % (current_hour, current_minute))
+		elif type(next_bus) == str:
+			lcd.message("%d:%s %s\n%d deg %s" % (current_hour, current_minute,
+												 next_bus, current_temp, conditions_today))
+		else:
+			# \x01F is the marker for the degree symbol created earlier
+			lcd.message("%d:%s %s: %dm\n%d\x01F %s" %
+						(current_hour, current_minute, route_name,
+						 next_bus, current_temp, conditions_today))
+
+	#    if (current_hour >= 6 and current_hour <= 9) and (current_minute == 0 or current_minute == 30) and error_check == 0:
+	#        result = update_result(current_temp, high_today, conditions_today, wind, trip_time_bus, trip_time_subway)
+	#        move_servo(result)
+		second_counter = (second_counter + 60) % 86400
+		sleep(60)
+		#gpio.cleanup()
+finally:
+	gpio.cleanup()    
+	
+# moving while loop to a try statement. may help?
+#if __name__ == "__main__":
+#	try:
+#		while True:
+#			loop()
+#	finally:
+#		gpio.cleanup()
