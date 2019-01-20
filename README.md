@@ -31,7 +31,6 @@ Go to Weather Underground and your local transit agency and obtain private API k
 Insert the keys in the appropriate locations within the code.
 ## Setup the circuit
 ![alt text](https://github.com/JohannesKepler/bunny-bike/blob/master/Bike%20Clock%20Schematic_bb.png)
-Placeholder for adding description of the circuit. Need to upload image from Fritzing to repo.
 ## To-do:
 Clean up code! Also implement the following features:
 - [x] Scrolling text to display messages longer than 16 characters.
