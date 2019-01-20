@@ -1,0 +1,1532 @@
+Stop ID,Stop Code,Stop Name
+4028994,3668,Churton St at Police Station
+4040178,1888,Zebulon Park-and-Ride
+4040182,1889,E 4th St at Wendell Park-and-Ride
+4040190,1890,E 4th St at Wendell Park-and-Ride
+4040222,1904,McKnight Dr at Electric Ave
+4040226,1905,McKnight Dr at WalMart
+4049406,1029,Renaissance Pkwy at Leonardo Dr (EB)
+4049410,1030,Renaissance Pkwy at The Lodge Apts
+4049414,1072,Old Chapel Hill Rd at Garrett Rd
+4049418,1074,University Dr at American Red Cross
+4049422,1075,University Dr at Ivy Creek Blvd
+4049486,1160,NC 54 at Blanchard Rd (EB)
+4049490,1161,NC 54 at Residence Inn Blvd (EB)
+4049494,1171,NC 54 at Blanchard Rd (WB)
+4049498,1175,NC 54 at Fayetteville Rd (WB)
+4049502,1182,Woodcroft Pkwy at Fayetteville Rd (WB)
+4049506,1203,Woodcroft Pkwy at Highgate Dr (EB)
+4049598,1778,Woodcroft Pkwy at Weathersfield Dr
+4049606,1781,NC 54 at Revere Rd (EB)
+4049618,1804,Renaissance Pkwy at Leonardo Dr (WB)
+4049622,1805,NC 54 at Amhurst St (EB)
+4049682,1871,NC 54 at S Alston Ave (WB)
+4049686,1872,NC 54 at NC 55 (Pizza Hut)
+4049690,1892,Fayetteville Rd at Renaissance Pkwy
+4049694,1893,NC 54 at The Hamptons Apts (EB)
+4049706,1901,McFarland Dr at Witherspoon Blvd
+4049710,1914,University Dr at Beech Lake Apts (EB)
+4049718,5002,Riddle Rd at Ancroft Ave (NB)
+4049726,5005,Cornwallis Rd at Industry Ln (SB)
+4049730,5006,Alston Ave at Durham Freeway (NB)
+4049734,5008,S Alston Ave at Massey Ave (NB)
+4049750,5017,Chapel Hill Rd at Mc Gehee St
+4049754,5018,Morehead Ave at Vickers Ave (WB)
+4049758,5019,Club Blvd at Kiss Dr
+4049762,5020,Fayetteville Rd at Laurel Springs Dr
+4049766,5021,Chapel Hill Rd at W Cornwallis Rd (SB)
+4049770,5022,Alston Ave at Drew St
+4049774,5023,Avondale Dr at E Markham St
+4049786,5027,W Club Blvd at Gregson St
+4049794,5030,Duke St at Main St
+4049798,5031,Carver St at Guess Rd
+4049802,5032,Roxboro Rd at Hammond St
+4049806,5033,Roxboro Rd at Bush Dr
+4049810,5035,Angier Ave at Pleasant Dr
+4049814,5036,Roxboro Rd at Markham Ave (north)
+4049818,5038,Liberty St at Queen St
+4049822,5039,Fayetteville St at E Piedmont Ave
+4049826,5042,University Dr at Weymouth St (WB)
+4049830,5043,Holloway St at S Adams St
+4049834,5044,Duke St at Harper Pl
+4049838,5045,Roxboro Rd at Edgewood Dr
+4049842,5047,Roxboro Rd at Markham Ave (south)
+4049846,5048,Chapel Hill Rd at Pinecrest Rd
+4049850,5050,Fayetteville Rd at Herndon Rd
+4049858,5054,University Dr at Larchmont Dr
+4049862,5055,Gregson St at Englewood Ave
+4049866,5056,Lawson St at Sima Ave
+4049874,5060,Dearborn Dr at Ruth St
+4049878,5061,Wedgedale Ave at Lynn Rd
+4049882,5063,NC 54 at Residence Inn Blvd (WB)
+4049886,5064,Otis St at Red Oak Ave
+4049898,5067,Mangum St at Geer St
+4049902,5068,Holloway St at Junction Rd
+4049906,5069,Hwy 98 at Mineral Springs Rd
+4049926,5075,Milton Rd at Eno Valley Elementary (SB)
+4049934,5079,Buchanan Blvd at Trinity Ave (NB)
+4049938,5080,Fayetteville St at Homeland Ave (NB)
+4049946,5084,Old Farm Rd at JFK Towers
+4049954,5088,S Alston Ave at Massey Ave (SB)
+4049958,5089,Duke St at Englewood Ave
+4049962,5091,E Club Blvd at Glenbrook Dr (SB)
+4049966,5092,Tower Blvd at Social Security Office
+4049970,5093,University Dr at South Square Mall (WB)
+4049974,5094,Lakewood Ave at Blackwell St
+4049978,5097,Roxboro Rd at Murray Ave
+4049982,5099,E Carver St at Patrick Henry Dr
+4049986,5100,Weaver St at Weaver St Park
+4049990,5101,E Club Blvd at Thorne St
+4050002,5105,Duke Regional Hospital
+4050010,5110,Fayetteville Rd at Wortley Dr
+4050014,5111,Lawson St at WG Pearson Cafeteria
+4050018,5112,Angier Ave at Commonwealth St
+4050022,5113,Blackwell St at Forest Hills Apts (SB)
+4050026,5115,Alston Ave at Dayton St (SB)
+4050030,5116,Roxboro Rd at Duke St
+4050034,5117,Glenbrook Dr at Dubonnet Pl (SB)
+4050038,5118,MLK Pkwy at Lake Camp Rd
+4050042,5119,Roxboro Rd at Ellerbee St
+4050050,5121,University Dr at Weymouth St (Kinder Care)
+4050062,5126,Avondale Dr at Nancy St
+4050066,5127,Seven Oaks Rd at Riverview Shopping Center
+4050070,5128,Roxboro Rd at Monk Rd (SB)
+4050074,5129,NC 54 at The Hamptons Apts (WB)
+4050078,5131,NC 54 at Seasons of Southpoint (EB)
+4050082,5132,N Roxboro Rd at Crutchfield St
+4050086,5133,University Dr at Westgate Dr (WB)
+4050090,5134,Rummel St at Hwy 98
+4050094,5136,Fayetteville Rd at Pearson Dr
+4050098,5138,Angier Ave at Driver St (WB)
+4050102,5139,Gregson St at Dacian Ave
+4050106,5141,Avondale Dr at Trinity Ave
+4050110,5142,Gregson St at Trinity Ave
+4050114,5144,Dowd St at N Roxboro Rd
+4050122,5148,E Main St at Alston Ave (WB)
+4050126,5149,NC 55 at Riddle Rd (NB)
+4050134,5152,Mangum St at Seeman St
+4050138,5153,Garrett Rd at Old Chapel Hill Rd
+4050142,5154,Alston Ave at Durham Freeway (SB)
+4050146,5156,Chapel Hill Rd at Bivins St
+4050154,5158,S Roxboro St at Lawson St (NB)
+4050158,5161,NC 55 at Meredith Dr (NB)
+4050162,5162,Willard St at Yancey St (Ramada Inn)
+4050174,5169,Morehead Ave at Moreland Ave
+4050182,5178,Club Blvd at Northgate Mall
+4050186,5179,Roxboro St at Lodge St (Hillside Park)
+4050190,5183,James St at Durham Chapel Hill Blvd
+4050194,5184,Service Rd at Davidson Ave
+4050198,5185,Chapel Hill Rd at Pickett Rd (NB)
+4050206,5189,University Dr at Snowcrest Tr
+4050210,5190,Nation Ave at Bedford St
+4050214,5191,Fayetteville Rd at Woodcroft Pkwy (SB)
+4050218,5193,Midvale Rd at Bedford St
+4050222,5195,Mineral Springs Rd at Hwy 98
+4050226,5197,Morehead Ave at Arnette Ave (EB)
+4050230,5198,Holloway St at Hyde Park Ave
+4050234,5199,Angier Ave at Wrenn Rd
+4050242,5202,Roxboro Rd at Edwards St
+4050246,5203,Avondale Dr at E Markham Ave
+4050250,5204,S Alston Ave at Dupree St (SB)
+4050254,5205,Angier Ave at Vine St (WB)
+4050258,5206,Lawson St at Rosewood St
+4050270,5209,Foushee St at Avondale Dr
+4050274,5210,MLK Pkwy at Shannon Rd
+4050282,5212,Woodcroft Pkwy at Sandstone Ridge Dr
+4050286,5215,Fayetteville St at Lawson St (SB)
+4050290,5218,Holloway St at Elm St
+4050298,5220,Duke St at Demerius St
+4050302,5221,E Weaver St at Jesmond St
+4050306,5222,Duke St at Henderson Towers
+4050310,5224,Fayetteville St at Burlington Ave (NB)
+4050314,5225,Fayetteville St at Brant St (NB)
+4050318,5226,Roxboro Rd at Oxford Commons
+4050326,5229,Roxboro Rd at Hugo St
+4050330,5230,Guess Rd at North Pointe Dr (Inbound)
+4050334,5231,University Dr at Beech Lake Apts (WB)
+4050338,5233,Freeman Rd at Clayton Rd
+4050342,5234,Fayetteville Rd at Woodcroft Pkwy (NB)
+4050346,5235,University Dr at University Pl
+4050350,5237,Pleasant Dr at US 70
+4050354,5238,Avondale Dr at Nancy St
+4050358,5239,Cornwallis Rd at Spring Ridge Apts (SB)
+4050362,5240,Freeman Rd at Valmet Dr
+4050366,5241,Lawson St at Durham Tech Library
+4050370,5242,Riddle Rd at Kirby St (NB)
+4050374,5244,Woodcroft Shopping Center (WB)
+4050378,5245,Holloway St at Alston Ave
+4050386,5247,Fayetteville Rd at Juliette Dr (NB)
+4050390,5248,Guess Rd at Duke Homestead Rd
+4050398,5253,Holloway St at Brye St
+4050410,5259,Alston Ave at Geer St
+4050414,5261,University Dr at Westgate Dr (EB)
+4050418,5262,NC 55 at Dakota St (SB)
+4050422,5263,Gregson St at Green St
+4050426,5264,Bacon St at Lawson St
+4050430,5265,E Main St at Blacknall St
+4050434,5268,Waring St at Davinci St
+4050438,5269,Stadium Dr at Horton Rd
+4050442,5271,Dearborn Dr at Thelma St (south)
+4050450,5273,Roxboro Rd at Oxford Commons
+4050454,5274,Holloway St at Hoover Rd
+4050458,5275,Green St at Lancaster St (WB)
+4050462,5276,Broad St at Forest Rd (out)
+4050466,5277,Dearborn Dr at Apollo St
+4050474,5280,E Main St at S Dillard St
+4050478,5281,Dearborn Dr at Maplewood Dr
+4050490,5285,Chapel Hill Rd at Valley Terrace (SB)
+4050498,5290,807 Bacon St
+4050502,5291,Holloway St at Chester St
+4050506,5292,Hillsborough Rd at Cole Mill Rd (WB)
+4050510,5296,NC 55 at Cornwallis Rd
+4050514,5298,Chapel Hill Rd at University Dr (SB)
+4050518,5300,Leon St at Haverford St
+4050526,5305,E Main St at Mangum St (WB)
+4050530,5306,Morehead Ave at Arnette Ave (WB)
+4050534,5307,Shannon Rd at University Dr
+4050538,5309,Roxboro Rd at Club Blvd
+4050542,5310,Angier Ave at Guthrie Ave (WB)
+4050546,5311,Roxboro Rd at Maynard Ave
+4050550,5313,Alston Ave at Lawson St
+4050554,5314,North Pointe Dr at Broad St
+4050558,5315,NC 55 at Carpenter Fletcher Rd (NB)
+4050562,5316,Lawson St at Durham Tech
+4050570,5319,Old Oxford Rd at Danube Ln
+4050574,5320,Gregson St at W Knox St
+4050582,5322,Meriwether Dr at E Carver St
+4050590,5324,Roxboro St at Dunstan Ave
+4050594,5325,Meriwether Dr at Carver Pond Apts
+4050598,5326,Chapel Hill St at Arnette Ave (EB)
+4050610,5329,Riddle Rd at Briggs Ave
+4050618,5331,Dearborn Dr at Old Oxford Rd
+4050622,5332,University Dr at Shannon Rd (EB)
+4050626,5333,Angier Ave at Jones Cir
+4050630,5334,Old Oxford Rd at Danube Ln
+4050638,5337,Lakewood Ave at Roxboro St (Heritage Square)
+4050642,5340,Morehead Ave at Kent St
+4050646,5341,Chapel Hill Rd at University Dr (NB)
+4050650,5342,Morehead Ave at Carroll St (WB)
+4050654,5344,Chapel Hill Rd at Morehead Ave (NB)
+4050658,5345,University Dr at South Square Mall (EB)
+4050662,5346,Raynor St at Fidelity Dr (EB)
+4050666,5347,E Club Blvd at Stephenson St
+4050674,5350,Gary St at Liberty St (NB)
+4050686,5354,NC 55 at Odyssey Dr (NB)
+4050690,5355,NC 55 at Riddle Rd (SB)
+4050694,5357,Fayetteville St at Cecil St (SB)
+4050698,5358,Holloway St at Bunn Terrace
+4050706,5360,Sima Ave at Dorothy Dr
+4050710,5361,Westgate Dr at Target
+4050718,5363,NC 54 at Fayetteville Rd (EB)
+4050722,5365,Raynor St at Hardee St
+4050726,5367,Angier Ave at Clay St
+4050730,5368,Meriwether Dr at Carver St
+4050734,5370,Dearborn Dr at Martin St
+4050738,5371,NC 54 at Boulder Rd (EB)
+4050742,5372,NC 54 at Boulder Rd (WB)
+4050746,5377,Roxboro Rd at Monk Rd
+4050750,5378,Avondale Dr at Alcott St
+4050754,5379,University Dr at Colonial Apts
+4050770,5387,Cornwallis Rd at Yorktown Ave (NB)
+4050786,5394,Chapel Hill Rd at Palmer St
+4050794,5396,Fayetteville St at Red Oak Ave (NB)
+4050798,5397,Fayetteville St at Dunbar St
+4050802,5398,Constitution Dr at Forest Apts
+4050806,5399,Club Blvd at Duke St
+4050810,5400,Roxboro Rd at Channing Ave
+4050814,5401,Sima Ave at Lawson St
+4050818,5403,E Carver St at Patrick Henry Dr
+4050822,5404,E Main St at S Hyde Park Ave (WB)
+4050830,5407,Tom Wilkinson Rd at Northern High (Across)
+4050834,5409,Clayton Rd at Chandler Rd
+4050838,5412,Hinson Dr at Waring St
+4050842,5415,Duke St at North Duke Crossing
+4050846,5416,Glenbrook Dr at Dubonnet Pl (NB)
+4050854,5419,Holloway St at Chandler Rd
+4050858,5420,E Main St at Corcoran St (Westbound)
+4050862,5423,Enterprise St at Roxboro St (EB)
+4050866,5424,S Roxboro St at Bond St
+4050874,5429,Hillsborough Rd at US 15-501 SB (Wendy's)
+4050878,5430,Riddle Rd at Kirby St (SB)
+4050886,5433,Main St at Morgan St (WB)
+4050890,5434,Milton Rd at Long Cresent Dr
+4050894,5435,NC 55 at Alston Ave (NCCU)
+4050898,5436,Meriwether Dr at Pickwick Tr
+4050906,5438,Duke St at Corporation St
+4050910,5439,Gregson St at Lamond Ave
+4050914,5441,NC 54 at Waterford Valley Dr (WB)
+4050922,5444,Dowd St at Roxboro Rd
+4050926,5445,Raynor St at The Village
+4050930,5446,Guess Rd at Ellen St
+4050934,5447,Chapel Hill Rd at Dean St
+4050938,5448,Hillsborough Rd at Neal Rd (EB)
+4050946,5450,Meriwether Dr at Oxford Ct
+4050950,5451,Olympic Ave at Roxboro Rd
+4050958,5453,Cornwallis Rd at Atlantic St
+4050966,5456,Shannon Rd at Windsor Apts
+4050986,5463,Fayetteville Rd at Obie Dr (SB)
+4050990,5464,Morehead Ave at Vickers Ave (EB)
+4050998,5466,Roxboro Rd at Argonne Dr
+4051002,5467,Front St at Croasdaile Office Park
+4051010,5470,Raynor St at Fidelity Dr (WB)
+4051018,5472,416 Old Oxford Rd
+4051026,5475,Club Blvd at Stephenson St
+4051030,5476,Enterprise St at S Roxboro St (WB)
+4051034,5477,Ross Rd at Charlestowne Apts
+4051038,5478,E Club Blvd at Miriam Cir
+4051042,5479,Cornwallis Rd at Weaver St
+4051050,5481,Roxboro Rd at Davidson Ave
+4051054,5482,Roxboro Rd at Lynch St
+4051066,5489,Dearborn Dr at Wiley Ave
+4051070,5490,Chapel Hill Rd at Ward St
+4051074,5492,Dearborn Dr at Cannada Ave
+4051078,5493,Tower Blvd at McDonalds
+4051086,5496,Dearborn Dr at Maplewood Dr (north)
+4051090,5497,Roxboro St at Erie St (CC Spaulding Elementary)
+4051094,5498,Holloway St at Guthrie Ave
+4051098,5499,Meriwether Dr at Pickwick Tr
+4051102,5501,Chapel Hill Rd at Chapel Ridge Apt
+4051106,5503,North Pointe Dr at Red Roof Inn (Inbound)
+4051110,5505,Holloway St at Alston Ave
+4051114,5506,Lawson St at Durham Tech Library
+4051118,5507,Chapel Hill St at Gregson St
+4051122,5508,Chapel Hill Rd at Morehead Ave (SB)
+4051126,5509,Old Farm Rd at Seven Oaks Rd
+4051130,5510,Roxboro Rd at Club Blvd
+4051134,5511,Hillsborough Rd at US 15-501 SB (Krispy Kreme)
+4051138,5512,Alston Ave at Cecil St (NCCU)
+4051142,5513,Roxboro Rd at Horton Rd
+4051150,5516,Duke St at Carver St
+4051158,5518,Fayetteville St at Pekoe St
+4051162,5519,University Dr at Forest Hills Shops (NB)
+4051170,5522,Dearborn Dr at Disciples Church
+4051174,5523,Miami Blvd at Greenbriar St
+4051178,5524,Mangum St at Trinity Ave
+4051182,5525,Hinson Dr at Davinci St
+4051194,5528,MLK Pkwy at Fayetteville Rd (EB)
+4051202,5530,Cornwallis Rd at Century Oaks Dr (NB)
+4051210,5532,S Alston Ave at Dupree St (NB)
+4051214,5533,University Dr at Old Chapel Hill Rd
+4051222,5537,Buchanan Blvd at Markham Ave (SB)
+4051234,5540,Chapel Hill Rd at Pickett Rd (SB)
+4051242,5543,Guess Rd at Lombard Ave
+4051246,5544,Fayetteville St at Homeland Ave (SB)
+4051258,5547,Sima Ave at Bacon St
+4051262,5549,Fayetteville St at Linwood Ave
+4051266,5550,Hardee St at Delano St
+4051270,5552,NC 55 at Meridian Pkwy (SB)
+4051274,5553,Milton Rd at Eno Valley Elementary (NB)
+4051286,5557,Morreene Rd at Andrews Rd
+4051294,5559,Willard St at Blackwell St (American Tobacco Campus)
+4051298,5561,Leon St at Lednum St
+4051302,5563,Duke St at Fairfield St
+4051310,5565,Fayetteville St at Utah Ave (NB)
+4051314,5567,Fayetteville Rd at Juliette Dr (SB)
+4051318,5568,Meriwether Dr at Old Oxford Rd
+4051326,5570,Garrett Rd at Millennium Dr
+4051330,5572,Cornwallis Rd at Bainbridge Dr (SB)
+4051334,5573,Holloway St at Elizabeth St
+4051338,5574,Durham-Chapel Hill Blvd at Legion Ave
+4051342,5575,Roxboro St at Charles St
+4051346,5578,Fayetteville St at Simmons St
+4051350,5579,North Pointe Dr at Kroger
+4051354,5580,Fayetteville St at Burlington Ave (SB)
+4051358,5581,E Club Blvd at Lindbergh St
+4051362,5582,Angier Ave at East End Ave
+4051370,5584,Hardee St at Fiske St
+4051382,5590,Hillandale Rd at Croasdaile Crossing
+4051386,5591,Roxboro St at The Life Center of Durham
+4051390,5593,Lednum St at Murray Ave
+4051398,5595,Duke St at Markham Ave
+4051402,5596,Foushee St at Avondale Dr
+4051410,5598,Fayetteville Rd at Geneva Dr (SB)
+4051414,5599,Riddle Rd at Fayetteville Rd
+4051418,5600,E Carver St at Commons Blvd
+4051422,5601,Cornwallis Rd at Industry Ln (NB)
+4051426,5602,E Main St at S Goley St
+4051430,5603,Hardee St at Landon St
+4051446,5608,S Hyde Park Ave at Lyons Club
+4051462,5612,Chapel Hill St at Gregson St (EB)
+4051466,5613,University Dr at Old Chapel Hill Rd (WB)
+4051470,5615,Gary St at Liberty St (SB)
+4051474,5616,Cornwallis Rd at Yorktown Ave (SB)
+4051478,5618,Holloway St at Joyland Ave
+4051482,5621,Front St at Courtyard Marriott
+4051486,5622,Glenbrook Dr at Club Blvd
+4051498,5625,Sparger Rd at Hillsborough Rd (Food Lion)
+4051502,5626,New Castle Rd at FoxFire Mailboxes
+4051506,5627,Holloway St at Spruce St
+4051510,5630,Hinson Dr at Glenbrook Dr (SB)
+4051514,5632,Green St at Lancaster St (EB)
+4051518,5633,Fayetteville Rd at Sutton Square
+4051526,5634,Roxboro Rd at St Paul St
+4051538,5639,Main St at Morgan St (EB)
+4051542,5642,Guess Rd at Lombard Ave
+4051550,5645,Club Blvd at Midland Terrace
+4051554,5646,Roxboro Rd at Davison Ave
+4051558,5647,Angier Ave at Bingham St (WB)
+4051566,5649,Tower Blvd at McDonalds
+4051570,5650,Durham-Chapel Hill Blvd at Hope Valley Rd (WB)
+4051582,5653,Fayetteville Rd at Riddle Rd
+4051586,5654,Horton Rd at Roxboro Rd
+4051594,5658,Durham-Chapel Hill Blvd at James St
+4051598,5659,Pickett Rd at Structure House Dr
+4051602,5661,Holloway St at N Driver St
+4051606,5662,Roxboro Rd at Lavender Ave
+4051610,5663,New Hope Commons
+4051614,5664,Dearborn Dr at Thelma St (north)
+4051618,5665,E Main St at Elm St (WB)
+4051626,5671,Holloway St at Elm St
+4051630,5672,Fayetteville St at Timothy Ave
+4051634,5674,University Dr at Springfield Apts
+4051638,5675,Otis St at Alton St
+4051642,5677,Broad St at Guess Rd
+4051646,5678,Morehead Ave at Cornell St
+4051650,5679,Crutchfield St at Crabtree Ave
+4051658,5682,Hillsborough Rd at Ample Storage
+4051666,5686,Fayetteville Rd at Cook Rd (NB)
+4051674,5689,Roxboro St at Umstead St (NB)
+4051678,5690,NC 54 at NC 55 (Walgreens)
+4051682,5693,Bedford St at Balmoray Ct
+4051686,5695,Hillandale Rd at Croasdaile Office
+4051690,5700,Roxboro St at Summit St
+4051694,5701,Fayetteville St at Price Ave
+4051698,5702,Roxboro Rd at E Knox St
+4051702,5703,Guess Rd at Carver St
+4051706,5704,Guess Rd at Duke Homestead
+4051714,5706,Roxboro St at Masondale Ave
+4051722,5708,Angier Ave at Hoover Rd
+4051726,5709,Roxboro Rd at Markham Ave
+4051730,5710,Angier Ave at Carter Ave
+4051734,5711,Alston Ave at Lee St
+4051738,5713,Rummel St at Walton St
+4051758,5720,Junction Rd at NC 98
+4051762,5721,Chapel Hill Rd at Vineyard St (NB)
+4051766,5722,Carver St at Carver Creek Apts
+4051774,5724,Page Rd at Angier Ave
+4051782,5728,Fayetteville Rd at United Dr
+4051790,5730,Chapel Hill Rd at Lakewood YMCA
+4051798,5733,Lawson St at Wabash St (westbound)
+4051806,5735,Holloway St at S Woodcrest St
+4051810,5738,Lawson St at Alston Ave (eastbound)
+4051814,5740,Chandler Rd at Chance Dr
+4051818,5741,E Main St at Roxboro St (WB)
+4051822,5742,Mangum St at Parrish St
+4051830,5744,Holloway St at Brye St
+4051834,5746,Roxboro St at Normandy St
+4051846,5749,E Weaver St at Pilot St
+4051854,5753,S Roxboro St at Lawson St (SB)
+4051858,5754,Chapel Hill Rd at Jersey Ave (Lakewood Shopping Center)
+4051866,5756,Lakewood Ave at S Mangum St (EB)
+4051882,5764,Dearborn Dr at Forrester St
+4051894,5767,NC 55 at Cherry Dr
+4051898,5768,NC 55 at Gaston Ave (NB)
+4051902,5769,Lawson St at Wabash St
+4051914,5773,Lawson St at Durham Tech
+4051918,5774,Durham Station
+4051926,5776,NC 54 at Paradigm Park
+4051934,5779,Capps St at Athens St
+4051938,5780,E Main St at Driver St (EB)
+4051942,5781,W Enterprise St at Fargo St
+4051946,5782,Woodcroft Pkwy at Autumn Woods
+4051950,5785,Buchanan Blvd at Gloria Ave (SB)
+4051958,5787,Roxboro Rd at Argonne Dr (SB)
+4051962,5790,Rummel St at Wedgedale Ave
+4051966,5792,Lawson St at Rosewood St
+4051970,5793,Fayetteville Rd at Crooked Creek Pk
+4051974,5794,Alston Ave at Lee St
+4051978,5795,Hinson St at DeMille St
+4051982,5796,MLK Pkwy at Lake Cook Dr (EB)
+4051986,5797,Mineral Springs Rd at Sapphire St
+4051990,5798,Durham-Chapel Hill Blvd at Garrett Rd
+4051994,5800,Roxboro Rd at Fairfield St
+4052006,5803,Milton Rd at Fire Department
+4052010,5804,US 70 at Angier Ave
+4052014,5805,Fayetteville St at Red Oak Ave (SB)
+4052018,5806,Murray Ave at Broad St
+4052022,5809,Hillsborough Rd at Self Storage
+4052026,5811,Service Rd at Davidson Ave
+4052034,5816,Fayetteville St at Dunstan St
+4052038,5818,Holloway St at Hoover Rd
+4052042,5819,E Main St at Oldham Towers
+4052046,5820,Cornwallis Rd at Century Oaks Dr (SB)
+4052050,5821,Holloway St at Briggs Ave
+4052054,5822,NC 55 at NC 54
+4052058,5823,University Dr at Academy Rd (WB)
+4052062,5824,Lawson St at Concord St (EB)
+4052070,5826,Roxboro Rd at Ellerbe St
+4052074,5827,Angier Ave at Hoover Rd
+4052078,5829,Fayetteville St at Pilot St (SB)
+4052086,5832,Dearborn Dr at Apollo St
+4052090,5833,Dearborn Dr at Lakeview School
+4052098,5836,Dearborn Dr at Maplewood Dr (south)
+4052102,5837,Roxboro Rd at Infinity Rd
+4052106,5838,Cornwallis Rd at Jan Ct (NB)
+4052110,5841,Fayetteville St at Cornwallis Rd (SB)
+4052114,5842,University Dr at Dixon Rd
+4052118,5843,Concord St at Otis St
+4052126,5845,Hillandale Rd at Durham Public Schools
+4052130,5846,Chapel Hill Rd at Vineyard St (SB)
+4052134,5847,Pickett Rd at Coachmans Way
+4052142,5849,Dearborn Dr at Thelma St
+4052146,5850,2435 Glenbrook Dr
+4052150,5851,Lawson St at Ridgeway Ave
+4052158,5854,Fayetteville Rd at Brian Center (SB)
+4052166,5857,Riddle Rd at Triangle Day Care (NB)
+4052170,5858,Chapel Hill Rd at Wa Wa Ave
+4052174,5859,MLK Pkwy at Lake Cook Dr (WB)
+4052178,5860,Roxboro Rd at Channing Ave
+4052182,5861,Front St at Carver Terrace Apts
+4052186,5862,Cornwallis Rd at Bainbridge Dr (NB)
+4052194,5864,University Dr at Forest Hills Shops (SB)
+4052198,5865,Chapel Hill Rd at McGehee St
+4052202,5866,Hinson Dr at Glenbrook Dr (NB)
+4052206,5867,Fayetteville St at Utah Ave (SB)
+4052210,5868,Club Blvd at Cascadilla St
+4052218,5870,Holloway St at Herbert St
+4052222,5871,Tower Blvd at Conifer Glen Ln
+4052226,5874,Hillsborough Rd at Hilton Durham (EB)
+4052230,5876,Ross Rd at Melbourne St
+4052234,5877,S Roxboro St at Umstead St (SB)
+4052238,5880,Club Blvd at Glenbrook Dr
+4052242,5881,NC 54 at Fayetteville Rd (Homestead Market)
+4052246,5882,Holloway St at Adams St
+4052250,5883,Mangum St at W Seminary Ave
+4052258,5887,Holloway St at Rochelle St
+4052274,5892,Sima Ave at Building 18
+4052290,5896,Roxboro Rd at Old Oxford Rd
+4052294,5897,Club Blvd at Dollar Ave
+4052298,5898,Holloway St at N Driver St
+4052302,5899,Briggs Ave at Person St
+4052314,5904,Chapel Hill Rd at Anderson St
+4052318,5906,Garrett Rd at Eno River Church
+4052322,5907,Fayetteville St at Old Fayetteville
+4052326,5908,Chapel Hill Rd at House St
+4052330,5909,Chapel Hill Rd at Colonial Apts (SB)
+4052334,5910,Angier Ave at Ellis Rd
+4052338,5911,Fayetteville Rd at Obie Dr (NB)
+4052346,5914,Morehead Ave at Carroll St (EB)
+4052350,5915,Hillsborough Rd at Operations Dr (WB)
+4052362,5918,University Dr at Academy Rd (EB)
+4052370,5920,Hardee St at Mimosa St
+4052374,5921,Holloway St at Southerland St
+4052378,5922,Main St at S Blacknall St
+4052386,5928,James St at Nation Ave
+4052390,5929,Briggs Ave at Community Garden
+4052394,5930,Broad St at Sprunt St
+4052398,5931,Fayetteville St at Brant St (NCCU)
+4052402,5932,Chalk Level Rd at Horton Rd (Eastbound)
+4052406,5933,Riddle Rd at Triangle Day Care (SB)
+4052410,5934,Duke St at Jackson St
+4052422,5938,S Roxboro St at Erie St (SB)
+4052426,5939,Otis St at Nelson St
+4052430,5940,Hardee St at Benning St
+4052438,5942,Roxboro St at Mallard Ave
+4052442,5943,University Dr at Weymouth St (EB)
+4052446,5944,Freeman Rd at Southern High Fields
+4052450,5945,Roxboro Rd at Berwyn Ave
+4052454,5946,Cornwallis Rd at Rogers Herr School (EB)
+4052458,5947,E Weaver St at Cornwallis Rd
+4052462,5948,Enterprise St at Scout Dr
+4052466,5949,Dearborn Dr at Deer Run
+4052474,5951,Buchanan Blvd at Markham Ave (NB)
+4052478,5952,Chapel Hill St at Police Station
+4052486,5954,Dowd St at Hazel St
+4052494,5956,The Streets at Southpoint Mall
+4052510,5960,Gary St at Holloway St
+4052518,5962,Buchanan Blvd at Trinity Ave (SB)
+4052526,5964,Roxboro Rd at Maynard Ave
+4052534,5966,Chapel Hill Rd at Vesson Ave
+4052542,5968,Glenbrook Dr at Club Blvd
+4052550,5970,Fayetteville Rd at Cook Rd (SB)
+4052554,5971,University Dr at Myra St
+4052558,5972,Carver St at Charlotte St
+4052562,5973,NC 55 at Meridian Pkwy (NB)
+4052566,5974,Buchanan Blvd at Gloria Ave (NB)
+4052574,5977,Miami Blvd at Robinhood Rd
+4052578,5979,Emerald Pond Ln at Pickett Rd
+4052582,5980,University Dr at Lyckan Pkwy
+4052586,5981,Alston Ave at Geer St
+4052594,5983,Duke St at Kinder Care
+4052598,5984,NC 55 at Dakota St (NB)
+4052602,5985,Mangum St at Markham Ave
+4052610,5987,Otis St at Cecil St
+4052614,5988,Roxboro St at Gray St
+4052618,5989,Avondale Dr at Trinity Ave
+4052622,5990,Durham-Chapel Hill Blvd at Hope Valley Rd (EB)
+4052626,5991,Lynn Rd at Holloway St
+4052630,5992,E Club Blvd at Cascadilla St
+4052634,5993,Duke St at Trinity Ave
+4052642,5996,Meriwether Dr at Old Oxford Rd
+4052646,5997,Hillsborough Rd at Hilton Durham (WB)
+4052654,5999,Chapel Hill Rd at W Cornwallis Rd (NB)
+4052658,6000,NC 54 at Pine Glen Trail (WB)
+4052662,6002,208 Lynn Rd
+4052666,6003,Roxboro Rd at Bon Air Ave
+4052670,6004,NC 55 at Crete St
+4052674,6005,Ben Franklin Blvd at Danube Ln
+4052678,6006,Buchanan Blvd at Green St
+4052686,6008,Angier Ave at Beldon Dr
+4052702,6014,Roxboro St at Holloway St
+4052706,6016,Lawson St at Bacon St
+4052718,6020,Otis St at Pilot St
+4052722,6023,Fayetteville St at Lawson St (NCCU)
+4052734,6026,Cornwallis Rd at Beechwood Ave
+4052746,6031,Dowd St at Alston Ave
+4052750,6032,Fayetteville St at Cecil St (NB)
+4052758,6036,University Dr at MLK Pkwy
+4052762,6039,Main St at S Goley St
+4052770,6042,American Dr at White Pine Dr
+4052782,6047,Green St at Buchanan Blvd
+4052786,6048,Dearborn Dr at Ora St
+4052794,6050,Pickett Rd at Colony Rd
+4052802,6052,Lawson St at Ridgeway Ave
+4052806,6053,Lawson St at Briggs Ave
+4052810,6054,Cornwallis Rd at Spring Ridge Apts (NB)
+4052818,6057,Chapel Hill Rd at Huron St
+4052822,6058,Lawson St at Durham Exchange Club Industries
+4052826,6059,Chapel Hill Rd at Chesterfield Apts
+4052830,6060,Bennett Memorial Rd at Gentry Dr (WB)
+4052834,6061,Ross Rd at Fernando St
+4052842,6063,E Main St at Alston Ave (EB)
+4052846,6064,Roxboro Rd at Omega Rd
+4052850,6065,Crutchfield St at Pendergrass St
+4052858,6067,Olympic Ave at Roxboro Rd
+4052870,6071,Morehead Ave at Fairview St
+4052874,6073,Gary St at N Miami Blvd
+4052886,6077,Fayetteville St at Eagle Campus Dr
+4052890,6078,Mordecai St at Holston St
+4052894,6079,Chapel Hill St at Arnette Ave (WB)
+4052902,6085,Angier Ave at Hosiery Mills
+4052906,6086,E Main St at S Hyde Park Ave (EB)
+4052910,6087,US 70 at Miami Blvd
+4052914,6088,Angier Ave at E Main St
+4052918,6092,Hardee St at Cheek Rd
+4052922,6093,Miami Blvd at Holloway St
+4052934,6096,Roxboro Rd at Higbee St
+4052938,6097,NC 55 at Gaston Ave (SB)
+4052942,6098,Riddle Rd at Ancroft Ave (SB)
+4052950,6105,Guess Rd at Hillcrest Dr
+4052954,6106,Guess Rd at Lamar St
+4052958,6107,Guess Rd at North Pointe Dr
+4052962,6109,North Pointe Dr at Kroger
+4052966,6110,North Pointe Dr at Broad St
+4052970,6114,Guess Rd at Lamar St
+4052974,6115,Guess Rd at Hillcrest Dr
+4052978,6116,North Pointe Dr at Woodmont Dr
+4052990,6125,Horton Rd at Stonewood Apts
+4052994,6126,Chalk Level Rd at Horton Rd (Westbound)
+4053002,6128,Wyldewood Rd at Foxfire Apts
+4053006,6129,New Castle Rd at 1475 Foxfire
+4053010,6130,Lawson St at Bacon St
+4053014,6132,Briggs Ave at UniFirst
+4053018,6133,Briggs Ave at Riddle Rd
+4053022,6136,Capps St at S Alston Ave
+4053026,6137,Capps St at Bacon St
+4053030,6138,1116 Hearthside St
+4053034,6139,Hearthside St at Welch Pl
+4053042,6142,Fayetteville St at Tralea Dr
+4053054,6145,Pickett Rd at Western Bypass Rd
+4053058,6146,Fayetteville St at Pilot St (NB)
+4053062,6147,Fayetteville St at Cornwallis Rd (NB)
+4053078,6153,Fayetteville Rd at Brian Center (NB)
+4053082,6154,Roxboro St at Cornwallis Rd
+4053086,6155,N Roxboro Rd at Duke Regional Hospital
+4053090,6156,Carver St at Meriwether Dr
+4053094,6157,Club Blvd at Lindbergh St
+4053098,6158,Dowd St at Gurley St
+4053102,6159,Dowd St at Gurley St
+4053106,6160,Dowd St at Hazel St
+4053110,6161,Dowd St at Alston St
+4053114,6162,Duke St at Cobb St
+4053118,6163,Chapel Hill Rd at Yates Church
+4053122,6164,University Dr at Shannon Rd (WB)
+4053126,6165,Old Chapel Hill Rd at Garrett Rd
+4053134,6167,Chapel Hill Rd at Colonial Apts (NB)
+4053138,6168,Buchanan Blvd at Minerva Ave
+4053146,6170,Hillsborough Rd at Sparger Rd (Food Lion)
+4053150,6171,Lawson St at NCCU Track
+4053154,6172,Hardee St at Holloway St
+4053158,6173,Holloway St at Southerland St
+4053166,6176,E Main St at Driver St (WB)
+4053170,6177,Lawson St at Sima Ave (westbound)
+4053186,6182,Morgan St at Mangum St
+4053214,6191,Shannon Rd at Sams Club
+4053218,6193,Fayetteville Rd at Turmeric Ln
+4053226,6196,3805 University Dr
+4053230,6197,Witherspoon Blvd at McFarland Dr
+4053234,6198,Mt. Moriah Rd at Danzinger Dr
+4053246,6201,Hillandale Rd at Hillandale Elementary
+4053250,6202,Horton Rd at Sugarwood Pl
+4053254,6203,Horton Rd at Guess Rd
+4053262,6205,Guess Rd at Peppertree St
+4053266,6206,Guess Rd at Crystal Lake Rd
+4053270,6207,Guess Rd at Bogarde St
+4053282,6210,Hillandale Rd at Pinetree Ct
+4053286,6211,Hillandale Rd at Samuel Dr
+4053290,6212,Hillandale Rd at Croasdaile Farms
+4053298,6217,Page Rd Ext at Hwy 70
+4053306,6221,Brier Leaf Ln at Brier Creek Pkwy
+4053318,6224,Brier Leaf Ln at Little Brier Creek Ln
+4053322,6225,Brier Creek Pkwy at Little Brier Creeky Ln
+4053346,6241,Rigsbee Ave at Seminary St
+4053350,6242,Rigsbee Ave at Corporation St
+4053354,6243,W Geer St at Rigsbee Ave
+4053358,6244,W Geer St at Glendale Ave
+4053362,6245,Geer St at Glendale Ave
+4053366,6246,Geer St at Rigsbee Ave
+4053370,6247,Rigsbee Ave at W Corporation St
+4053374,6248,Rigsbee Ave at Seminary St
+4053386,6251,Renaissance Shopping Center
+4053390,6252,Renaissance Pkwy at Holly Hill Dr
+4053394,6253,Highgate Dr at Audubon Lake Dr
+4053398,6254,Highgate Dr at Harrier Ct
+4053402,6255,Highgate Dr at NC 54
+4053406,6256,Fayetteville St at Cook Rd (SB)
+4053410,6257,Fayetteville St at Cook Rd (Hillside HS)
+4053414,6258,Fayetteville Rd at Mt Zion Church
+4053434,6263,Miami Blvd at Bethesda Elementary
+4053438,6264,Holloway St at Rummel St
+4053442,6265,Holloway St at Lynn Rd
+4053446,6266,Miami Blvd at New Haven Dr
+4053454,6268,TW Alexander Dr at Center Point (EB)
+4053458,6269,TW Alexander at Roche Dr (LabCorp)
+4053462,6270,TW Alexander Dr at Creekside Townhomes
+4053470,6272,TW Alexander Dr at Miami Blvd (WB)
+4053474,6273,Miami Blvd at Methodist St.
+4053478,6274,NC 54 at S Alston Ave (EB)
+4053482,6275,S Alston Ave at Kestrel Heights School (SB)
+4053486,6276,S Alston Ave at Duke Health (SB)
+4053490,6277,S Alston Ave at Falls Pointe Apts (SB)
+4053494,6278,NC 55 at Sedwick Dr (NB)
+4053498,6279,NC 55 at Golden Corral (NB)
+4053510,6283,NC 55 at Allendown Dr (NB)
+4053518,6287,S Alston Ave at Englert Dr
+4053522,6288,E Geer St at Fay St
+4053526,6289,E Geer St at Midland Terrace (EB)
+4053530,6290,E Geer St at Landon Farms Ln (EB)
+4053542,6293,E Geer St at Landon Farm Ln (WB)
+4053546,6294,E Geer St at Midland Terrace (WB)
+4053550,6297,Roxboro St at Liberty St
+4053554,6299,Pettigrew St at Mangum St (WB)
+4053558,6300,Pettigrew St at Roxboro St
+4053570,6304,E Geer St at Glenview Station
+4053574,6305,E Chapel Hill St at Main St
+4053578,6306,E Main St at Corcoran St (Eastbound)
+4053582,6307,E Main St at Mangum St (EB)
+4053586,6308,E Chapel Hill St at Post Office
+4053590,6309,N Dillard St at Main St
+4053594,6310,US 70 at Laurel Dr
+4053598,6311,Angier Ave at Wood Chapel Ln (WB)
+4053602,6312,Angier Ave at Miami Blvd
+4053606,6313,Angier Ave at Bungalow Ave
+4053610,6314,Angier Ave at Midway Ave
+4053614,6315,Roxboro Rd at Foushee St
+4053618,6316,Morgan St at The Carolina Theatre
+4053622,6317,Pettigrew St at Mangum St (EB)
+4053626,6319,MLK Pkwy at Stratford Lake Dr (WB)
+4053630,6320,MLK Pkwy at Stratford Lake Dr (EB)
+4053634,6322,Cornwallis Rd at Roxboro Rd
+4053646,6330,Lakewood Ave at Fayetteville St
+4053654,6333,American Dr at Constitution Dr
+4053662,6335,Hillsborough Rd at Cole Mill Rd (CVS)
+4053666,6336,Gregson St at Main St (Brightleaf Square)
+4053670,6337,Cornwallis Rd at Laurel Oaks Dr (SB)
+4053674,6338,NC 55 at Martin Luther King Jr Pkwy
+4053678,6339,NC 55 at Odyssey Dr (SB)
+4053682,6340,NC 55 at Carpenter Fletcher Rd (SB)
+4053686,6343,Highway 98 at Joyland Ave
+4053690,6344,Holloway St at Herbert St
+4053694,6345,Taylor St at Holton Career Center
+4053702,6347,Taylor St at Driver St (Holton Career Center)
+4053706,6348,Hwy 98 at Durham Assisted Living
+4053710,6349,Mineral Springs Rd at Destrier Dr
+4053714,6350,Freeman Rd at Mineral Springs Rd
+4053718,6351,Ross Rd at Idlewood Rd
+4053766,6363,Hwy 98 at Clayton Rd
+4053778,6366,E Carver St at Commons Blvd
+4053806,6375,Chapel Hill Rd at E Cornwallis Rd
+4053826,6381,W Main St at Amtrak Station (out)
+4053830,6382,E Main St at Roxboro St (EB)
+4053834,6383,Main St at Golden Belt
+4053842,6386,Main St at West Village
+4053846,6387,Main St at Gregson St
+4053866,6394,Capps St at Athens St
+4053870,6395,Briggs Ave at Person St (outbound)
+4053874,6396,Briggs Ave at East Coast Metal
+4053878,6397,Alston Ave at Riddle Rd
+4053882,6398,Capps St at S Alston Ave
+4053886,6399,Capps St at Bacon St
+4053910,6424,W Club Blvd at Waltown Park
+4053918,6426,Broad St at Hillcrest Dr
+4053934,6430,W Club Blvd at Onslow St
+4053942,6433,Hardee St at Naples Pl
+4053950,6435,Holloway St at Alma St
+4053958,6440,Hillsborough Rd at Operations Dr (EB)
+4053974,6444,Cornwallis Rd at Campus Crossings Apts (SB)
+4053978,6446,S Alston Ave at Capitola Dr (SB)
+4053982,6447,Cornwallis Rd at Laurel Oaks Dr (NB)
+4053986,6448,Cornwallis Rd at Campus Crossings Apts (NB)
+4053998,6451,Ellis Rd at Research Triangle Academy
+4054002,6452,Ellis Rd at Research Triangle Academy
+4054010,6455,Roxboro Rd at Ryan St (NB)
+4054014,6459,Roxboro Rd at Riverside Square
+4054030,6463,Milton Rd at Durham County Library
+4054034,6464,Roxboro Rd at Latta Rd
+4054042,6466,New Castle Rd at Strawberry Hill Apt
+4054054,6470,Lawson St at BRITE Sci Complex
+4054058,6472,Herndon Rd at Fayetteville Rd
+4054062,6473,Chapel Hill Rd at Valley Terrace (NB)
+4054066,6474,Fayetteville Rd at Torrey Pine
+4054070,6475,Fayetteville Rd at Innesbrook Way
+4054074,6476,Fayetteville Rd at WG Pearson Elementary
+4054078,6478,3610 Wake Forest Rd
+4054082,6479,Holloway St at Ganyard Farm Way
+4054102,6484,Broad St at Forest Rd (in)
+4054106,6485,Hardee St at Mimosa St
+4054110,6486,Hardee St at Landon St
+4054114,6487,Hardee St at Delano St
+4054118,6488,Raynor St at Hardee St
+4054122,6489,Raynor St at The Village
+4054126,6490,Holloway St at Elizabeth St
+4054130,6491,E Main St at Elm St (EB)
+4054134,6492,North Pointe Dr at Red Roof Inn (Outbound)
+4054138,6493,Willard St at Blackwell St (EB)
+4054142,6494,Blackwell St at Forest Hills Apts (NB)
+4054146,6495,MLK Pkwy at Bay Camp Dr
+4054162,6501,MLK Pkwy at Fayetteville Rd (WB)
+4054170,6503,E Main St at Hood St
+4054174,6505,E Main St at Elizabeth St
+4054178,6506,E Main St at Queen St
+4054182,6507,E Geer St at Faucette Ave
+4054186,6510,Buchanan Blvd at Urban Ave (NB)
+4054194,6520,Ellis Rd at Miami Blvd
+4054198,6521,Roxboro Rd at Pacific Ave
+4054210,6527,Dowd St at Mangum St
+4054218,6530,Junction Rd at Ross Rd
+4054222,6531,Pettigrew St at Roxboro St
+4054226,6532,TW Alexander Dr at Lab Corp
+4054230,6533,Mangum St at Ramseur St
+4054234,6536,Ben Franklin Blvd at Voyager Academy
+4055098,1811,White St at Elm Ave (Park-and-Ride)
+4055266,1897,Village Park at Rex
+4055278,1906,Village Park Dr at Rex (across)
+4061190,3013,Raleigh Rd at Finley Golf Course Rd
+4061194,3014,Raleigh at Burning Tree Dr
+4061210,3024,NC 54 Park-and-Ride Lot
+4061546,3114,Raleigh Rd at UNC Administration (WB)
+4061686,3149,Eubanks Rd Park-and-Ride Lot
+4061798,3178,S Columbia St at Abernethy Hall
+4061802,3179,S Columbia St at Frat Ct
+4061906,3211,Pittsboro St at Newman Center
+4061918,3214,South Rd at Coker Hall
+4061922,3215,South Rd at Kenan Labs
+4061942,3221,Mason Farm Rd at Ambulatory Care Center (EB)
+4061946,3222,S Columbia St at Carrington Hall
+4061950,3223,S Columbia St at Health Sciences Library
+4061954,3224,Pittsboro St at University Dr
+4061962,3226,Pittsboro St at Credit Union
+4062002,3237,East Dr at Jackson Cir
+4062010,3239,Manning Dr at UNC Hospitals
+4062054,3251,E Franklin St at Carolina Ave
+4062070,3255,E Franklin St at S Boundary St
+4062074,3256,E Franklin St at N Boundary St
+4062078,3257,E Franklin St at Planetarium (EB)
+4062082,3258,E Franklin St at Planetarium (WB)
+4062086,3259,E Franklin St at Estes Dr (WB)
+4062090,3260,E Franklin St at Estes Dr (EB)
+4062098,3263,E Franklin St at Vet Hospital
+4062102,3264,E Franklin St at Plant Rd
+4062106,3265,E Franklin St at Elizabeth St (WB)
+4062110,3266,E Franklin St at Elizabeth St (EB)
+4062122,3269,E Franklin St at Glendale Dr
+4062138,3273,E Franklin St at Booker Creek Greenway
+4062398,3359,South Rd at Fetzer Gym
+4062402,3360,South Rd at Student Stores
+4062422,3365,E Franklin St at Elliott Rd (EB)
+4062426,3366,E Franklin St at Elliott Rd (WB)
+4062430,3367,E Franklin St at #1520
+4062434,3368,E Franklin St at Franklin Woods
+4062482,3383,N Columbia St at Rosemary St
+4062494,3386,Raleigh Rd at UNC Administration (EB)
+4062498,3387,Raleigh Rd at Glen Lennox Shopping Center
+4062534,3396,Raleigh Rd at Hamilton Rd
+4062554,3402,Martin Luther King Jr Blvd at Perkins Dr (Chapel Hill North)
+4062626,3421,N Columbia St at W Franklin St
+4062650,3427,E Franklin St at Coffee Shop
+4062654,3428,E Franklin St at Varsity Theatre
+4062662,3430,South Rd at Country Club Rd (EB)
+4062666,3431,South Rd at Country Club Rd (WB)
+4062670,3436,Mason Farm Rd at Odum Village
+4062674,3437,S Columbia St at Sitterson Hall (ROTC)
+4062734,3453,E Franklin St at Eastgate Shopping Center
+4062870,3489,Jones Ferry Rd at Davie Rd
+4062922,3504,E Main St at Jade Palace
+4062926,3505,E Main St at Weaver St Realty
+4063278,3606,Martin Luther King Jr Blvd at Chapel Hill North (SB)
+4063350,3631,Jones Ferry Rd at Alabama Ave
+4098134,1105,Erwin Rd at VA Hospital
+4098438,1553,Erwin Rd at Towerview Rd
+4098454,5078,Trent Dr at Duke Hospital South
+4098458,5081,Trent Dr at Parking Deck
+4098462,5102,Shirley St at Crest St
+4098466,5106,Erwin Rd at Research Dr
+4098470,5125,Hillsborough Rd at W Knox St
+4098474,5145,Erwin Rd at Morreene Rd
+4098482,5157,Fulton St at Pratt St
+4098486,5165,Erwin Rd at Downing St (EB)
+4098490,5207,Lasalle St at Grace Healthcare
+4098494,5211,Fulton St at Shirley St
+4098498,5228,Fulton St at Erwin Rd (VA Hospital)
+4098502,5255,Erwin Rd at Lambeth Cir
+4098506,5257,Shirley St at Ratcale Ln
+4098510,5272,Duke University Rd at Anderson St (EB)
+4098514,5278,Markham Ave at Ninth St
+4098518,5282,Hillsborough Rd at West Durham Lumber
+4098522,5286,Duke University Rd at Underwood Ave (EB)
+4098526,5317,Duke University Rd at Anderson St (WB)
+4098530,5351,Lasalle St at Bradford Ridge Apts
+4098542,5460,Erwin Rd at LaSalle St (EB)
+4098546,5465,Broad St at Markham Ave (NB)
+4098550,5468,Hillsborough Rd at LaSalle St (Auto Zone)
+4098554,5471,Erwin Rd at Lenox Baker Children's Hospital
+4098558,5480,Flowers Dr at Duke Gardens (Northbound)
+4098562,5484,Duke University Rd at Underwood Ave (WB)
+4098566,5495,W Club Blvd at Clarendon St
+4098570,5515,Glasson St at Morreene Rd
+4098574,5526,Hillsborough Rd at Erwin Square
+4098578,5527,Green St at Clarendon St (EB)
+4098582,5531,Erwin Rd at LaSalle St (WB)
+4098586,5564,Morreene Rd at Erwin Rd (WB)
+4098590,5569,Hillsborough Rd at Kroger
+4098594,5594,Hillsborough Rd at Trent Dr (WB)
+4098598,5604,Crest St at Zelko Ct
+4098602,5607,Erwin Rd at Trent Dr (Eastbound)
+4098606,5648,LaSalle St at Campus Walk Ave (Belmont Apts)
+4098614,5657,Chapel Hill St at Kent St (WB)
+4098618,5684,W Club Blvd at Clarendon St
+4098622,5714,Morreene Rd at Sherwood Dr (NB)
+4098626,5716,Hillsborough Rd at Hicks St
+4098630,5717,Hillsborough Rd at Frazee Carpet
+4098634,5718,LaSalle St at Campus Walk Dr (Holly Hill Apts)
+4098638,5727,Broad St at Sprunt Ave
+4098642,5732,Hillsborough Rd at Carolina Ave
+4098646,5734,Hillsborough Rd at Rutherford St
+4098650,5743,Trent Dr at Duke Hospital South
+4098654,5765,Hillsborough Rd at Rosehill Ave
+4098658,5770,LaSalle St at Hillsborough Rd (SB)
+4098662,5775,Duke University Rd at Swift Ave
+4098666,5778,Hillsborough Rd at Lawndale Ave (WB)
+4098670,5786,LaSalle St at Hillsborough Rd (NB)
+4098674,5801,Broad St at Markham Ave (SB)
+4098678,5802,Broad St at F St
+4098682,5848,Flowers Dr at Duke Gardens (Southbound)
+4098686,5869,Broad St at F St
+4098690,5884,Chapel Hill St at Brewster St
+4098694,5900,Chapel Hill St at Kent St (EB)
+4098706,5941,Green St at Broad St
+4098710,5957,Duke University Rd at Chapel Hill Rd
+4098714,5965,Green St at Berkeley St (WB)
+4098718,5967,Markham Ave at Iredell St
+4098722,5982,Duke University Rd at Swift Ave
+4098726,5986,Green St at Sedgefield St
+4098730,5995,Green St at Berkeley St (EB)
+4098734,6007,Service Rd at Hillandale Rd (EB)
+4098738,6012,Erwin Rd at Duke Hospital
+4098746,6018,Hillsborough Rd at W Main St (Food Lion)
+4098750,6024,LaSalle St at Duke Manor Apts (Inbound)
+4098758,6040,Hillsborough Rd at Trent Dr (EB)
+4098762,6045,Lasalle St at Blue Crest Ln (Blue Crest Apts)
+4098766,6049,Service Rd at Hillandale Rd (WB)
+4098770,6055,Green St at Clarendon St (WB)
+4098774,6068,Erwin Rd at Downing St (WB)
+4098778,6069,Chapel Hill St at Carroll St
+4098782,6076,Douglas St at Pratt St
+4098786,6104,Fulton St at VA Hospital
+4098790,6169,LaSalle St at Duke Manor Apts (Outbound)
+4098810,6331,Erwin Rd at Trent Dr (WB)
+4098814,6334,Chapel Dr at Duke University Rd (Alumni House)
+4098818,6377,Anderson St at Main St
+4098822,6379,W Main St at Swift Ave
+4098830,6390,Main St at Iredell St
+4098838,6392,Erwin Rd at Anderson St
+4098858,6441,Duke University Rd at Chapel Dr
+4098862,6499,Trent Dr at Erwin Rd
+4098866,6502,Main St at 9th St
+4099250,11001,E Chatham St at Lake Dr (across)
+4099254,11002,E Chatham St at Lake Dr
+4099274,11032,E Chatham St at W Circle Dr
+4099278,11033,E Chatham St at W Circle Dr (across)
+4099282,11034,Dillard Dr at Meeting St
+4099286,11068,SE Maynard Rd at Cary High School
+4099294,11095,N Harrison Ave at Northwoods Market (across)
+4099334,1187,Hillsborough St at Meredith College
+4099434,1284,Wilmington St at Cabarrus St
+4099442,1292,Dillard Dr at Columbus Ave
+4099446,1293,Dawson St at Martin St
+4099502,1313,Dillard Dr at Walnut St
+4099562,1360,Harrison Ave at Homestead Dr
+4099566,1361,Harrison Ave at Dynasty Dr
+4099570,1362,Harrison Ave at Northwoods Market
+4099574,1363,Harrison Ave at Queen Elizabeth Dr
+4099578,1364,Harrison Ave at Johnson St
+4099586,1366,Kildaire Farm Rd at Cornwall Rd
+4099590,1367,Kildaire Farm Rd at Mayfair Plaza
+4099598,1369,Maynard Rd at Hampton Valley Rd
+4099606,1370,Maynard Rd at Greenwood Cir
+4099610,1371,Maynard Rd at Tanglewood Dr
+4099614,1372,Maynard Rd at Ashe Ave
+4099618,1373,Maynard Rd at Collington Dr
+4099626,1375,Walnut St at Barnes & Noble
+4099630,1376,Walnut St at Sturdivant Dr
+4099634,1377,Donaldson Dr at Patrick Cir
+4099638,1378,Donaldson Dr at Nottingham Dr
+4099642,1379,Buck Jones Rd at Nottingham Dr
+4099646,1380,Buck Jones Rd at Nottingham Dr
+4099650,1381,Buck Jones Rd at Farm Gate Rd
+4099654,1383,Buck Jones Rd at Xebec Way
+4099658,1385,Buck Jones Rd at Farm Gate Rd
+4099662,1386,Buck Jones Rd at Barclay Dr
+4099666,1388,Nottingham Dr at Buck Jones Rd
+4099670,1389,Nottingham Dr at Harlon Dr
+4099674,1390,Donaldson Dr at Patrick Cir
+4099678,1391,Walnut St at Sturdivant Dr
+4099686,1394,Maynard Rd at Ellynn Dr
+4099698,1398,Cary Train Station
+4099702,1399,Harrison Ave at Johnson St
+4099710,1400,Harrison Ave at Queen Elizabeth Dr
+4099714,1403,Harrison Ave at Dynasty Dr
+4099718,1404,Harrison Ave at Homestead Dr
+4099738,1463,Spring Forest Rd at Falls of Neuse Rd
+4099778,1478,North Hills Dr at Shellbrook Ct
+4099782,1479,Spring Forest Rd at Sandy Forks Rd
+4099798,1483,Spring Forest Rd at Falls of Neuse Rd
+4099802,1485,Spring Forest Rd at Rainwater Rd
+4099842,1539,Hammond Rd at Chapanoke Rd (SECU)
+4099846,1540,Hammond Rd at Chapanoke Rd (Detention Center)
+4099878,1580,Harrison Ave at Reedy Creek Rd
+4099882,1581,Harrison Ave at Reedy Creek Rd
+4099886,1582,Harrison Ave at Cary Pkwy
+4099890,1583,Maynard Rd at Tanglewood Dr
+4099894,1585,Nottingham Dr at Buck Jones Rd
+4099910,1637,White Oak Shopping Center Park-and-Ride
+4099934,1703,Hillsborough St at Dawson St
+4099938,1704,Walnut St at Lawrence Rd
+4099942,1705,Walnut St at Nottingham Dr
+4099970,1713,Harrison Ave at Grande Heights Dr
+4099974,1714,Harrison Ave at Harrison Point Shopping Center
+4099990,1734,Wilmington St at Martin St
+4100010,1748,District Drive Park-and-Ride
+4100054,1789,Buck Jones Rd at Orchard St
+4100070,1807,Faircloth St at Meredith College
+4100102,1880,Buck Jones Rd at Barclay Dr
+4100118,1891,New Bern Ave at Wake Med
+4100154,206,Carter-Finley Park & Ride
+4100198,8001,GoRaleigh Station
+4100202,8002,Wilmington St at Morgan St
+4100206,8003,N Wilmington St at Jones St
+4100218,8006,N Wilmington St at North St
+4100314,8030,Triangle Town Center Mall at Orvis (Park and Ride)
+4100426,8058,Salisbury St at Parking Deck
+4100430,8059,Salisbury St at Lane St
+4100434,8061,N Salisbury St at W Jones St
+4100442,8063,S Salisbury St at W Morgan St
+4100458,8071,W Edenton St at S Harrington St
+4101026,8228,Hillsborough St at Glenwood Ave
+4101038,8231,Hillsborough St at St Marys College
+4101042,8232,Hillsborough St at Mayo St
+4101046,8234,Hillsborough St at Park Ave
+4101050,8235,Hillsborough St at Forest Rd
+4101058,8237,Hillsborough St at Enterprise St
+4101066,8240,Hillsborough St at Brooks Ave (WB)
+4101178,8274,Hillsborough St at Brooks Ave (EB)
+4101186,8277,Hillsborough St at NCSU Belltower
+4101198,8280,Hillsborough St at Forest Rd
+4101414,8343,McDowell St at Martin St
+4101498,8366,Townridge Shopping Center
+4101502,8367,Duraleigh Rd at Glenwood Ave
+4101798,8463,North Hills Dr at Northclift Dr
+4102030,8523,Western Blvd at Hunt Dr
+4102034,8524,Western Blvd at Ashe Ave
+4102190,8568,Western Blvd at Bilyeu St
+4102234,8584,Hillsborough St at Shepherd St
+4102238,8586,Hillsborough St at Faircloth St
+4102242,8587,Hillsborough St at Meredith College
+4102278,8597,Hillsborough St at Turner St
+4102282,8598,Hillsborough St at Stanhope Ave
+4102326,8620,New Bern Ave at S Tarboro Rd
+4102458,8654,E Edenton St at N Tarboro Rd
+4102650,8712,Millbrook Rd at Lead Mine Rd
+4102818,8756,North Hills Dr at Northclift Dr
+4102834,8762,Millbrook Rd at Lead Mine Rd
+4103002,8817,Blount St at Bledsoe Ave
+4103262,8909,Blount St at GoRaleigh Station
+4103454,9047,Spring Forest Rd at Timber Ridge Dr
+4103462,9049,Spring Forest Rd at Exchange
+4103510,9061,Buck Jones Rd at Portree Pl
+4103514,9062,Buck Jones Rd at Fieldspring Ln
+4103526,9065,Western Blvd at Heather Dr
+4103530,9066,Western Blvd at Deboy St
+4103882,9198,S Person St at Bledsoe Ave
+4103894,9201,S Person St at Lenoir St
+4104222,9322,Western Blvd at Hunt Club Ln
+4104234,9325,Buck Jones Rd at Chest Hill Dr
+4104490,9404,S Person St at Davie St
+4104770,9483,Hillsborough St at Boylan St
+4104790,9489,Lynn Rd at Genford Ct
+4104798,9491,Lynn Rd at Shelley River
+4104810,9494,Lynn Rd at Shelley River (across)
+4104822,9497,Lynn Rd at Bent Creek
+4104910,9525,Spring Forest Rd at New Market Way
+4104918,9527,Spring Forest Rd at Rainwater Rd
+4104922,9528,Spring Forest Rd at Exchange Park (Park and Ride)
+4104930,9530,Spring Forest Rd at Timber Ridge Dr
+4105294,9674,Edenton St at Salisbury St
+4105562,9744,Dawson St at Cabarrus St
+4105850,9923,New Bern Ave at WakeMed (across)
+4106534,1927,Erwin Rd at Emergency Dr
+4111618,6538,Enterprise at American Tobacco Trail
+4111622,6541,Carver St at Hillandale Rd
+4111638,6545,Morreene Rd at Campus Walk Ave (NB)
+4111642,6546,American Dr at Hillgrand Dr (WB)
+4111646,6547,American Dr at Hillgrand Dr (EB)
+4111650,6548,Morreene Rd at American Dr
+4111654,6549,Morreene Rd at Campus Walk Ave (SB)
+4111658,6550,Morreene Rd at Sherwood Dr (SB)
+4111662,6551,Morreene Rd at Glasson St (SB)
+4111666,6552,Morreene Rd at Erwin Rd (EB)
+4111674,6554,Morreene Rd at Tremont Dr (NB)
+4111678,6555,Neal Rd at Bennett Memorial Rd (OB)
+4111686,6557,Neal Rd at Bennett Memorial Rd (Triangle Day School)
+4111690,6558,Morreene Rd at Tremont Dr (SB)
+4111694,6559,Neal Rd at Hillsborough Rd
+4113674,6543,Lednum St at 2309 Lednum St
+4113678,6544,Leon St at N Buchanan Blvd
+4113682,6562,W Murray Ave at Broad St
+4113690,6564,Leon St at Haverford St
+4116294,5428,Pacific Ave at Ben Franklin Blvd
+4116298,5606,Pacific Ave at Roxboro Rd
+4116302,6439,Fayetteville St at Umsted St
+4116310,6523,Carver St at Danube Ln
+4116314,6524,Ben Franklin Blvd at Danube Ln
+4116318,6565,Angier Ave at Vine St (EB)
+4116322,6566,Page Rd at Foxridge Crescent
+4116330,6568,Miami Blvd at Raynor St
+4116334,6569,Cheek Rd at Andover Dr
+4116338,6570,Main St at Guthrie Ave
+4116346,6572,Liberty St at Elizabeth St
+4116350,6573,Hardee St at Cheek Rd
+4116354,6574,Liberty St at Elizabeth St
+4116358,6575,Angier Ave at Bingham St (EB)
+4116362,6576,Fayetteville St at Buxton St
+4116366,6577,NC 751 at Southpoint Autopark Dr
+4116370,6578,NC 751 at NC 54 (NB)
+4116374,6579,Hope Valley Commons Park-and-Ride
+4116378,6580,NC 55 at Meredith Dr (SB)
+4116382,6581,NC 55 at Allendown Dr (SB)
+4116386,6582,NC 55 at Crossland Hotel (SB)
+4116390,6583,NC 55 at Sedwick Dr (Greenwood Commons)
+4116394,6584,S Alston Ave at Falls Pointe Apts (NB)
+4116398,6585,S Alston Ave at Duke Health (NB)
+4116402,6586,S Alston Ave at Capitola Dr (NB)
+4116406,6587,S Alston Ave at Triangle Dr
+4116410,6588,S Alston Ave at Kestrel Heights School (NB)
+4116414,6589,NC 751 at NC 54 (SB)
+4116418,6590,MLK Pkwy at Cook Rd (WB)
+4116422,6591,S Roxboro St at Kroger
+4116426,6592,MLK Pkwy at Cook Rd (EB)
+4116430,6593,S Roxboro Rd at Chestnut St
+4116434,6594,Alston Ave at Chenault Dr
+4116438,6595,Alston Ave at Riddle Rd
+4116446,6597,Lawson Ave at NCCU Soccer Field
+4116450,6598,Lawson Ave at Merrick St
+4116454,6599,Lawson Ave at Concord St
+4116458,6600,Roxboro Rd at Dillard St
+4116462,6601,New Castle Rd at Stadium Dr
+4116466,6602,New Castle Rd at Foxfire Mailboxes
+4116470,6603,New Castle Rd at Wyldewood Rd
+4116474,6604,Wyldewood Rd at Stadium Dr
+4116478,6605,Horton Rd at Delbert Ave
+4116482,6606,Guess Rd at Horton Rd (Outbound)
+4116486,6607,Rose of Sharon at Riverside High School
+4116490,6608,Horton Rd at Glen Laurel Dr
+4116494,6609,Horton Rd at Delbert Ave
+4116498,6610,Stadium Dr at Horton Rd
+4116502,6611,Ben Franklin Blvd at Medical Park Dr
+4116506,6612,Pacific Ave at Capital St
+4116510,6613,Roxboro Rd at North Duke Crossing
+4116514,6614,Roxboro Rd at Denfield Rd
+4116518,6615,Milton Rd at Post Office
+4116522,6616,Roxboro Rd at Ryan St (SB)
+4116526,6617,Stadium Dr at Wyldewood Rd
+4116530,6618,Morehead Ave at Duke St (WB)
+4116534,6619,Cornwallis Rd at Rogers Herr School (WB)
+4116538,6620,Garrett Rd at Oak Creek Apts
+4116542,6621,Garrett Rd at Glenbrook West Apartments
+4116546,6622,Morehead Ave at Duke St (EB)
+4116550,6624,Pacific Ave at Roxboro Rd
+4116554,6627,NC 55 at Service Station
+4116558,6628,Alston Ave at Dayton St (NB)
+4116562,6629,TW Alexander at Page Rd
+4116566,6630,TW Alexander Dr at WakeMed (WB)
+4116570,6631,TW Alexander at Page Rd
+4117350,1928,UNC Morehead Planetarium
+4120186,6635,Geer St at Faucette Ave
+4120190,6637,Fayetteville Rd at MLK Pkwy (SB)
+4120194,6638,Fayetteville Rd at MLK Pkwy (NB)
+4120846,6393,Holloway St at Hyde Park Ave
+4120850,6498,Milton Rd at Long Cresent Dr
+4121154,11109,SE Maynard Rd at Greenwood Forest Baptist Church
+4125182,6645,Ellis Rd at Miami Blvd (Inbound)
+4128646,1228,Harrison Ave at Weston Pkwy
+4128654,1930,Spring Forest Rd at Shanda Dr
+4128658,1931,Spring Forest Rd at Northbend Dr
+4134042,5057,Angier Ave at Driver St (EB)
+4134050,5335,Angier Ave at Guthrie Ave (EB)
+4134058,5635,Angier Ave at Clay St
+4134066,6632,S Roxboro St at Chestnut St
+4134070,6633,Neal Rd at Bishopstone Dr
+4134074,6634,Neal Rd at McMannen UMC
+4134082,6643,Garrett Rd at Carillon Assisted Living Center
+4134086,6644,Garrett Rd at Yates Baptist Association
+4134090,6646,Stratford Lakes at Fayetteville Rd
+4134094,6647,LaSalle St at Kangaroo St (The Heights Apts)
+4134102,1207,Hope Valley Rd at Garrett Rd
+4135418,5637,Main St at Gregson St
+4135422,6380,W Main St at Campus Dr
+4135426,6389,Main St at Campus Dr
+4136130,12042,Research Dr at Erwin Rd
+4143570,1808,Faircloth St at Beaver Dam Rd
+4146366,12018,Duke Chapel
+4153102,6648,Wedgedale Ave at Manson Pl
+4153106,6649,MLK Pkwy at Lakeside Gardens
+4153110,6650,North Roxboro St at Frasier St
+4153114,6652,Roxboro Rd at Faith Community Church
+4158266,1941,Fulton St at Elder St
+4158274,11105,SE Maynard Rd at Kildaire Farm Rd
+4163710,6657,Morreene Rd at Glasson St (NB)
+4163714,6658,Main St at Angier Ave
+4163718,6660,Taylor St at Gary St (WB)
+4163722,6661,S Dillard at County Public Health
+4163726,6662,Operations Dr at Western Park Pl
+4169154,1956,Efland-Cheeks Community Center
+4169158,1957,E Washington St at S 5th St (Mebane City Hall)
+4169162,1958,Mebane Cone Health Park-and-Ride
+4169170,1961,Fuquay-Varina South Park Park & Ride
+4169174,1962,Hilltop Food Lion Fuquay-Varina Park & Ride
+4171438,1480,Spring Forest Rd at Sandy Forks Rd
+4174906,6663,Fayetteville Rd at Hillside High School
+4174908,6664,TW Alexander at Fun Park Dr
+4174910,6665,TW Alexander Dr at Center Point (WB)
+4174984,6659,Taylor St at Gary St (EB)
+4176252,5719,Roxboro St at W Knox St
+4177596,6670,Research Dr at Circuit Dr
+4177598,6671,Main St at Chapel Hill St
+4177600,6672,Main St at Chapel Hill St
+4177602,6673,Main St at 9th St
+4177604,6674,Main St at Rutherford St
+4177606,6675,Research Dr at Erwin Rd
+4177610,1201,Hillsborough St at Mayo St
+4181374,5384,Lakewood Ave at S Mangum St (WB)
+4181376,6204,Guess Rd at Horton Rd (Inbound)
+4181378,6442,Lakewood Ave at Roxboro St (Southside Lofts)
+4181380,6450,Ellis Rd at New Haven Dr
+4181382,6677,Angier Ave at East End Ave
+4181384,6678,Angier Ave at Midway Ave
+4181386,6679,Pleasant Dr at Angier Ave
+4181388,6680,Great Jones St at Main St
+4181390,6681,W Durham Dr at US 15-501
+4185866,6684,North Pointe Dr at Woodmont Dr (Inbound)
+4188130,1397,Kildaire Farm Rd at Cornwall Rd
+4188138,6685,US 70 at Peyton Ave (Family Dollar)
+4190418,1975,Durham Tech OCC Park-and-Ride (SB)
+4190628,5391,Fayetteville Rd at Geneva Dr (NB)
+4191614,6286,Chapel Dr at Duke University Rd (Duke News)
+4195470,6567,Guthrie Ave at Main St
+4195472,6571,Guthrie Ave at Angier Ave
+4195474,6095,Duke Regional Hospital
+4196802,5120,Garrett Rd at Jordan High
+4196804,5380,Garrett Rd at Jordan High (out)
+4196806,6686,Ivey Wood Ln at Springwood Park Apts
+4196808,6687,Cameron Blvd at Science Dr
+4196810,6688,Little Brier Creek Ln at TW Alexander Dr
+4196812,6689,Brier Creek Pkwy Skyland Ridge Pkwy
+4196844,8894,S Blount St at E. Davie St
+4197196,8276,Hillsborough St at Horne St (EB)
+4197592,1000,Regional Transit Center (RTC)
+4197594,1038,Davis Dr at Delta
+4197596,1039,Kit Creek Rd at Davis Dr
+4197598,1078,Erwin Rd at Cameron Blvd
+4197600,1079,TW Alexander Dr at NC 54
+4197602,1080,TW Alexander Dr at Research Commons
+4197604,1081,TW Alexander Dr at United Therapeutics
+4197606,1083,TW Alexander Dr at Cornwalis Rd
+4197608,1084,Cornwallis Rd at Cree
+4197610,1085,Cornwallis Rd at United Therapeutics
+4197612,1104,Trent St at Erwin Rd (SB)
+4197614,1107,Erwin Rd at Cameron Blvd
+4197616,11092,S Academy St at Charlie Gaddy Ln
+4197618,1143,NC 54 at Friday Center Dr
+4197620,1144,NC 54 at Falconbridge Rd (EB)
+4197622,1145,NC 54 at Leigh Farm Rd
+4197624,1146,NC 54 at Copper Ridge Dr
+4197626,1151,Woodcroft Pkwy at Highgate Dr (WB)
+4197628,1152,Woodcroft Pkwy at Fayetteville Rd
+4197630,1185,Blue Ridge Rd at State Fairgrounds
+4197632,1186,Hillsborough St at NCSU Veterinary School
+4197634,1208,NC 54 at Dresden Dr
+4197636,1209,NC 54 at Quadrangle Dr
+4197638,1211,NC 54 at Meadowmont Ln
+4197640,1219,Copley Pkwy at Morrisville Outlet Mall
+4197642,1220,Copley Pkwy at Morrisville Outlet Mall
+4197644,1221,Slater Rd at Page Rd (Imperial Point)
+4197646,1222,Slater Rd at Emperor Blvd (Chelsea Place)
+4197648,1224,Blue Ridge Rd at Ramada Inn
+4197650,1227,Jones Franklin Rd at Hunt Club Ln
+4197652,1240,NC 55 at Colony Woods Dr
+4197654,1241,NC 55 at Old Jenks Rd
+4197656,1242,NC 55 at Lewey Dr
+4197658,1243,NC 55 at Parkscene Ln
+4197660,1245,NC 55 at Brook Arbor Dr
+4197662,1246,NC 55 at Glendon Way
+4197666,1248,NC 55 at Carpenter Fire Station Rd
+4197668,1262,Pine Plaza Dr at Lake Pine Dr
+4197670,1263,Pine Plaza Dr at Shepherds Vineyard Dr
+4197672,1264,Tryon Rd at Crescent Green Dr
+4197674,1265,Colonades Way at Waverly Place PNR
+4197676,1267,Tryon Rd at Cary Pkwy
+4197678,1269,Dillard Dr at Walnut St
+4197680,1270,Dillard Dr at Corning Rd
+4197682,1271,Dillard Dr at Jones Franklin Rd
+4197684,1272,Jones Franklin Rd at Crossroads Blvd
+4197686,1273,Jones Franklin Rd at Penwood Dr
+4197688,1274,Dillard Dr at Jones Franklin Rd
+4197690,1275,Western Blvd at Method Rd
+4197692,1276,Western Blvd at Gorman St
+4197694,1277,Western Blvd at Dan Allen Dr (NCSU)
+4197696,1281,Western Blvd at Boylan Ave
+4197698,1283,Wilmington St at Shaw University
+4197700,1294,Dillard Dr at Piney Plains Rd
+4197702,1295,Dillard Dr at Piney Plains Rd
+4197704,1299,Western Blvd at Boylan Ave
+4197706,1301,Western Blvd at Morrill Dr (NCSU)
+4197708,1303,Western Blvd at Gorman St
+4197710,1304,Western Blvd at Kent Rd
+4197712,1305,Jones Franklin Rd at Capital Center
+4197714,1306,Jones Franklin Rd at Centerview Dr
+4197716,1307,Jones Franklin Rd at Hunt Club Ln
+4197718,1308,Jones Franklin Rd at Woodsdale Rd
+4197720,1309,Jones Franklin Rd at Wayne St
+4197722,1310,Jones Franklin Rd at Crossroads Blvd
+4197724,1311,Jones Franklin Rd at Capital Center
+4197726,1315,Tryon Rd at Cary Pkwy
+4197728,1317,Colonades Way at Waverly Place PNR
+4197730,1318,Tryon Rd at WakeMed Cary Hospital
+4197732,1319,Tryon Rd at Crescent Green Dr
+4197734,1320,Piney Plains Rd at Tryon Rd
+4197736,1321,Piney Plains Rd at Tryon Rd
+4197738,1322,Piney Plains Rd at Scarlet Sky Ln
+4197740,1323,Piney Plains Rd at Scarlet Sky Ln
+4197742,1345,Tryon Rd at Kildaire Farm Rd
+4197744,1350,Davis Dr at Biogen
+4197746,1354,Davis Dr at Park Knoll Dr
+4197748,1355,Davis Dr at Hopson Rd
+4197750,1357,Harrison Ave at SAS Campus Dr
+4197752,1368,Kilmayne Dr at Big Lots
+4197754,1374,Maynard Rd at Walnut St
+4197756,1392,Kildaire Farm Rd at Medcon Ct
+4197758,1395,Maynard Rd at Hampton Valley Rd
+4197760,1436,NIEHS at Building 101
+4197762,1437,NC 55 at Indian Wells Rd
+4197764,1438,NC 55 at Glendon Way
+4197766,1439,NC 55 at Brook Arbor Dr
+4197768,1440,NC 55 at Highfield Ave
+4197770,1441,NC 55 at Green Level Rd
+4197772,1442,NC 55 at Catlin Rd
+4197774,1443,NC 55 at Turner Creek Rd
+4197776,1444,NC 55 at Jenks Rd
+4197778,1445,NC 55 at Colony Woods Dr
+4197780,1446,NC 55 at Vision Dr
+4197782,1447,Williams St (NC 55) at Olive Chapel Rd
+4197784,1449,Hughes St at Compare Foods Park-&-Ride (across)
+4197786,1450,Hughes St at Compare Foods Park-&-Ride
+4197788,1452,Mason St at Apex Town Hall (across)
+4197790,1453,Old Raleigh Rd at Heatherwood Dr
+4197792,1454,Old Raleigh Rd at New Dover Rd
+4197794,1455,Old Raleigh Rd at Sterling Silver Dr
+4197796,1456,Old Raleigh Rd at Shepherds Vineyard Dr
+4197798,1459,NC 55 at High House Rd
+4197800,1469,North Hills Dr at Shellbrook Ct
+4197802,1470,Shelley Lake Park-and-Ride
+4197804,1473,Pleasant Valley Rd at Golds Gym
+4197806,1474,Pleasant Valley Rd at Golds Gym
+4197808,1476,Glenwood Ave at Millbrook Rd
+4197810,1486,Capital Crossing Shopping Center
+4197812,1496,Blue Ridge Rd at Westchase Blvd
+4197814,1499,Slater Rd at Page Rd (Coastal Credit Union)
+4197816,1504,Davis Dr at Laboratory Dr
+4197818,1506,IBM 062
+4197820,1513,Miami Blvd at Guardian Dr (across)
+4197822,1515,Miami Blvd at Patriot Dr
+4197824,1519,Factory Shops Rd at Morrisville Outlet Mall
+4197826,1520,Factory Shops Rd at Morrisville Outlet Mall
+4197830,1528,Hammond Rd at Rush St (Outbound)
+4197832,1530,Hammond Rd at Rush St
+4197834,1531,US 70 at Loop Rd
+4197836,1532,7th Ave at Garner Town Hall
+4197838,1533,7th Ave at Forest Hills Dr
+4197840,1545,Hammond Rd at Tryon Rd (Outbound)
+4197842,1546,Hammond Rd at Tryon Rd (Northbound)
+4197844,1548,Blue Ridge Rd at State Fairgrounds
+4197846,1549,NIEHS at Building 101
+4197848,1550,United States EPA (RTP Campus)
+4197850,1551,Hopson Rd at US EPA
+4197852,1552,Davis Dr at Hopson Rd (Inbound)
+4197854,1554,Old Chapel Hill Rd at SW Durham Dr (Githens School)
+4197856,1556,NC 54 at New Millennium Way (EB)
+4197858,1557,NC 54 at New Millennium Way (WB)
+4197860,1558,Slater at Creekstone Dr
+4197862,1559,Emperor Blvd at Royal Center
+4197864,1560,Emperor Blvd at Venture Center
+4197866,1563,Slater Rd at Emperor Blvd (Bright Horizons)
+4197868,1566,Slater Rd at S Miami Blvd (Zaxby's)
+4197870,1576,RDU Airport at Terminal 1
+4197872,1577,RDU Airport at Terminal 2
+4197874,1587,Walnut St at Cary Towne Center Mall
+4197876,1590,Trent St at Erwin Rd (NB)
+4197878,1593,Williams St (NC 55) at Hunter St
+4197880,1596,Mason St at Apex Town Hall
+4197882,1597,Old Raleigh Rd at Sterling Silver Dr
+4197884,1598,Old Raleigh Rd at Shepherds Vineyard Dr
+4197886,1599,NC 55 at Vision Dr
+4197888,1600,NC 55 at Carpenter Fire Station Rd
+4197890,1602,IBM 500
+4197892,1609,Hanes Dr at RTI
+4197894,1611,Davis Dr at Hamner Institutes
+4197896,1613,NC 54 at Falconbridge Rd (WB)
+4197898,1628,Cornwallis Rd at S Miami Blvd
+4197900,1629,IBM 203
+4197902,1662,Hillsborough St at NCSU Veterinary School
+4197904,1689,Davis Dr at Syngenta
+4197906,1707,Millbrook Rd at Dodsworth Dr
+4197908,1708,Millbrook Rd at Dodsworth Dr
+4197910,1709,Millbrook Rd at Creedmoor Rd
+4197912,1716,Jones Franklin Rd at Waters Edge Dr
+4197914,1718,Emperor Blvd at LCI
+4197916,1719,Emperor Blvd at Yorkshire Place
+4197918,1720,Lake Pine Plaza Park-and-Ride
+4197920,1723,Williams St (NC 55) at Bank of America
+4197924,1725,Williams St (NC55) at Haddon Hall
+4197926,1726,Williams St (NC 55) at Peakway Market
+4197930,1731,Williams St (NC 55) at Beaver Creek Commons
+4197932,1732,Stirrup Creek Dr at Twin Creeks Ct
+4197934,1757,Churton St at North Hills Shopping Center
+4197936,1758,Churton St at Police Station
+4197938,1760,NC 86 at Walmart (Southbound)
+4197940,1761,NC 86 at Storey Ln (Southbound)
+4197942,1762,Churton St At Courhouse
+4197944,1763,NC 86 at Millhouse Rd (Southbound)
+4197946,1764,NC 86 at Mt. Sinai Rd
+4197948,1765,NC 86 at Walmart (Northbound)
+4197950,1766,NC 86 at Storey Ln (Northbound)
+4197952,1769,Western Blvd at Gannett St
+4197954,1770,Western Blvd at Powell Dr
+4197956,1771,Jones Franklin Rd at Vann St
+4197958,1772,Jones Franklin Rd at Vann St
+4197960,1774,Harrison Ave at Cary Academy
+4197962,1775,Academy St at Chatham St
+4197964,1776,Slater Rd at GoTriangle Admin Office
+4197966,1777,Slater Rd at Sheraton Hotel
+4197968,1780,Woodcroft Pkwy at Weathersfield Dr
+4197970,1784,Spring Forest Rd at New Market Way
+4197972,1788,NC 55 at Connemara Dr
+4197974,1796,SW Durham Dr at Rose Garden Ln (NB)
+4197976,1797,SW Durham Dr at Witherspoon Blvd
+4197978,1798,Kit Creek Rd at Cisco 1
+4197980,1799,Kit Creek Rd at Cisco 2
+4197982,1800,Louis Stephens Dr at Cisco Building 12
+4197984,1801,Development Dr at Lenovo 1
+4197986,1802,Development Dr at Lenovo 2
+4197988,1842,Chatham St at Wake Med Soccer Park (EB)
+4197990,1843,Chatham St at Wake Med Soccer Park (WB)
+4197992,1845,Durham Tech OCC Park-and-Ride
+4197994,1849,Davis Dr at RTP Headquarters
+4197996,1854,Miami Blvd at Chin Page Rd
+4197998,1855,Miami Blvd at Chin Page Rd (across)
+4198000,1856,Miami Blvd at Guardian Dr
+4198002,1857,Miami Blvd at GE Aviation
+4198004,1860,NC 54 at Park Dr (EB)
+4198006,1861,NC 54 at Park Dr (First Citizens Bank)
+4198008,1862,Page Rd at TW Alexander Dr
+4198010,1863,NC 54 at Park Offices Dr (The Frontier)
+4198012,1864,NC 54 at Research Triangle High School
+4198014,1865,NC 54 at Triangle Dr (WB)
+4198016,1866,NC 54 at TW Alexander Dr (EB)
+4198018,1876,Cornelius St (US 70) at Rainey Rd
+4198020,1881,Jones Franklin Rd at Ft Sumter Rd
+4198022,1887,Millbrook Rd at Creedmoor Rd
+4198024,1898,Revere Rd at Nash St
+4198026,1913,Dillard Dr at Meeting St (across)
+4198028,1915,7th Ave at Forest Hills Dr (across)
+4198032,1917,Timber Dr at Benson Rd
+4198034,1918,Timber Dr at Benson Rd (Outbound)
+4198036,1919,Timber Dr at Aversboro Rd
+4198038,1920,Timber Dr at Aversboro Rd (Outbound)
+4198040,1921,Aversboro Rd at Aversboro Elementary
+4198042,1922,Aversboro Rd at Aversboro Elementary (across)
+4198044,1923,Aversboro Rd at Poole Dr
+4198046,1924,Aversboro Rd at Poole Dr (Outbound)
+4198048,1925,Vandora Springs Rd at Beichler Rd
+4198050,1926,Vandora Springs Rd at Beichler Rd (Outbound)
+4198052,1929,Page Rd at World Trade Blvd
+4198054,1933,Pleasant Valley Rd at Townridge Shopping Center (across)
+4198056,1934,Pleasant Valley Rd at Millbrook Rd (OB)
+4198058,1935,Pleasant Valley Rd at Millbrook Rd (IB)
+4198060,1937,NC 54 at Shiloh Glenn
+4198062,1938,Woodcroft Pkwy at Homeplace II
+4198064,1939,Woodcroft Pkwy at Parson's Chase
+4198066,1940,Western Blvd at Blue Ridge Rd.
+4198068,1943,SW Durham Dr at Realm Homes (NB)
+4198070,1944,SW Durham Dr at Realm Homes (SB)
+4198072,1945,Hillsborough St at Jones Franklin Rd
+4198074,1952,McDowell St at Lenoir St
+4198076,1965,3020 Carrington Mill Blvd
+4198078,1966,Carrington Mill Blvd at Paramount Pkwy
+4198080,1967,Paramount Pkwy at Lenovo (Outbound)
+4198082,1968,Paramount Parkway at Perimeter Park
+4198084,1969,Salisbury St at W Davie St
+4198086,1970,Salisbury St at South St
+4198088,1971,Paramount Pkwy at Perimeter Park
+4198090,1972,Paramount Pkwy at Lenovo (Inbound)
+4198092,1973,Carrington Mill Blvd at Paramount Pkwy
+4198094,1974,3015 Carrington Mill Blvd
+4198096,1977,Airport Blvd at Factory Shops Rd
+4198098,1978,Airport Blvd at Aerial Center Pkwy (Waffle House)
+4198100,1980,Waterstone Dr at UNC Health Care - Hillsborough Campus
+4198102,5026,Woodcroft Pkwy at Winterberry Ridge
+4198106,5633,Fayetteville Rd at Sutton Place Apt
+4198108,5894,Woodcroft Shopping Center
+4198110,6075,Westgate Dr at Burger King
+4198112,6195,Old Chapel Hill Rd at Farrington Rd (Githens School)
+4198114,6215,Hope Valley Rd at Garrett Rd (Bank of America)
+4198116,6249,SW Durham Dr at Witherspoon Blvd
+4198118,6250,SW Durham Dr at Rose Garden Ln (SB)
+4198120,8282,Hillsborough St at Park Ave
+4199272,1981,Kitty Hawk Way at IBM Dr
+4199392,8238,Hillsborough St at Horne St (WB)
+4199398,8569,Western Blvd at Hunt Dr
+4199418,6691,Madden Ave at Roxboro Rd
+4199422,1894,TW Alexander Dr at Environmental Pkwy (NIEHS)
+4199424,1895,TW Alexander Dr at S Alston Ave (NIEHS)
+4200736,1150,Woodcroft Pkwy at Old Fox Trail
+4200798,6676,Guess Rd  at Victory Blvd
+4211368,6226,TW Alexander Dr at Glenwood Ave
+4211370,6267,TW Alexander Dr at Miami Blvd (EB)
+4211372,6281,TW Alexander Dr at Stirrup Creek Dr
+4211962,9925,NC State Fairgrounds Gate 1
+4213452,6693,W Enterprise St at E Forest Hills Blvd
+4213490,5150,Erwin Rd at Duke Eye Center
+4213492,6515,Buchanan Blvd at Urban Ave
+4213498,5373,NC 54 at Barbee Rd (EB)
+4213500,5443,NC 54 at Revere Rd (WB)
+4213502,5517,Fayetteville Rd at Southpoint Crossing Dr
