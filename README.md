@@ -32,4 +32,8 @@ Insert the keys in the appropriate locations within the code.
 ## Setup the circuit
 Placeholder for adding description of the circuit. Need to upload image from Fritzing to repo.
 ## To-do:
-Clean up code! Also implement the following features: Scrolling text to display messages longer than 16 characters. A physical button that switches bus lookups. Instructions on how to keep the code running indefinitely (right now it doesn't run for more than 1-3 hours). Instructions on how to run the code on boot.
+Clean up code! Also implement the following features:
+- [x] Scrolling text to display messages longer than 16 characters.
+- [ ] A physical button that switches bus lookups.
+- [ ] Instructions on how to keep the code running indefinitely (right now it doesn't run for more than 1-3 hours).
+- [ ] Instructions on how to run the code on boot.
