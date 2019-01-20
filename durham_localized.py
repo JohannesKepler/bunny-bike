@@ -81,7 +81,7 @@ def update_gotriangle(stop_id, route_id, current_hour, current_minute):
         if stop['stop_id'] == stop_id:
             for arrival in stop['arrivals']:
                 if arrival['route_id'] == route_id:
-                    arrival_time = datetime.strptime(arrival['arrival_at'], '%Y-%m-%dT%H:%M:%S-04:00')
+                    arrival_time = datetime.strptime(arrival['arrival_at'], '%Y-%m-%dT%H:%M:%S-05:00')
                     arrival_minute = arrival_time.minute + 60 * (arrival_time.hour - current_hour)
                     next_bus = arrival_minute - current_minute
                     return next_bus

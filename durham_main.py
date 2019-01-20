@@ -187,64 +187,75 @@ gpio.add_event_detect(11, LCD.GPIO.FALLING, callback=button1_press, bouncetime=2
 gpio.add_event_detect(12, LCD.GPIO.FALLING, callback=button2_press, bouncetime=250)
 
 try:
-	while True:
-		# GoTriangle API Usage Limit: unknown!
-		if (second_counter % 60) == 0:
-			current_time = datetime.now()
-			current_hour = current_time.hour
-			current_minute = str(current_time.minute)
-			if len(current_minute) == 1:
-				current_minute = '0' + current_minute
-			try:
-				next_bus = durham_localized.update_gotriangle(picked_stop, picked_route,
-															  current_hour, current_minute)
-				bus_error = 0
-			except:
-				bus_error += 1
-				if bus_error == 1:
-					last_hour = current_hour
-					last_minute = current_minute
+    while True:
+        # GoTriangle API Usage Limit: unknown!
+        if (second_counter % 60) == 0:
+            current_time = datetime.now()
+            current_hour = current_time.hour
+            current_minute = str(current_time.minute)
+            if len(current_minute) == 1:
+                current_minute = '0' + current_minute
+            try:
+                next_bus = durham_localized.update_gotriangle(picked_stop, picked_route,
+                                                              current_hour, current_minute)
+                bus_error = 0
+            except:
+                bus_error += 1
+                if bus_error == 1:
+                    last_hour = current_hour
+                    last_minute = current_minute
 
-		# WUnderground API Usage Limit: 500/day, 10/minute. Update 1/hour
-		if (second_counter % 360) == 0:
-			try:
-				conditions_today, current_temp, high_today, wind = durham_localized.update_weather()
-				weather_error = 0
-			except:
-				weather_error += 1
+        # WUnderground API Usage Limit: 500/day, 10/minute. Update 1/hour
+        if (second_counter % 360) == 0:
+            try:
+                conditions_today, current_temp, high_today, wind = durham_localized.update_weather()
+                weather_error = 0
+                extras = len(str(current_temp)) + len(conditions_today) + 3 - 16
+                if extras < 0:
+                    extras = 0
+                i = 0
+            except:
+                weather_error += 1
+                extras = 0
+                i = 0
 
-		lcd.clear()
+        lcd.clear()
 
-		if bus_error > 0 and weather_error == 0:
-			lcd.message('%d:%s BUS ERROR\n%d deg %s' % (current_hour, current_minute,
-														current_temp, conditions_today))
-		elif weather_error > 0 and bus_error == 0:
-			lcd.message("%d:%s %s: %d\nWEATHER ERROR" % (current_hour, current_minute,
-														 picked_route[1], next_bus))
-		elif weather_error > 0 and bus_error > 0:
-			lcd.message("%d:%s BUS ERROR\nWEATHER ERROR" % (current_hour, current_minute))
-		elif type(next_bus) == str:
-			lcd.message("%d:%s %s\n%d deg %s" % (current_hour, current_minute,
-												 next_bus, current_temp, conditions_today))
-		else:
-			# \x01F is the marker for the degree symbol created earlier
-			lcd.message("%d:%s %s: %dm\n%d\x01F %s" %
-						(current_hour, current_minute, route_name,
-						 next_bus, current_temp, conditions_today))
+        if bus_error > 0 and weather_error == 0:
+            lcd.message('%d:%s BUS ERROR\n%d deg %s' % (current_hour, current_minute,
+                                                        current_temp, conditions_today))
+        elif weather_error > 0 and bus_error == 0:
+            lcd.message("%d:%s %s: %d\nWEATHER ERROR" % (current_hour, current_minute,
+                                                         picked_route[1], next_bus))
+        elif weather_error > 0 and bus_error > 0:
+            lcd.message("%d:%s BUS ERROR\nWEATHER ERROR" % (current_hour, current_minute))
+        elif type(next_bus) == str:
+            lcd.message("%d:%s %s\n%d deg %s" % (current_hour, current_minute,
+                                                 next_bus, current_temp, conditions_today))
+        else:
+            # \x01F is the marker for the degree symbol created earlier
+            lcd.message("%d:%s %s: %dm\n%d\x01F %s" %
+                        (current_hour, current_minute, route_name,
+                         next_bus, current_temp, conditions_today[i:len(conditions_today)-extras+i]))
 
-	#    if (current_hour >= 6 and current_hour <= 9) and (current_minute == 0 or current_minute == 30) and error_check == 0:
-	#        result = update_result(current_temp, high_today, conditions_today, wind, trip_time_bus, trip_time_subway)
-	#        move_servo(result)
-		second_counter = (second_counter + 60) % 86400
-		sleep(60)
-		#gpio.cleanup()
+    #    if (current_hour >= 6 and current_hour <= 9) and (current_minute == 0 or current_minute == 30) and error_check == 0:
+    #        result = update_result(current_temp, high_today, conditions_today, wind, trip_time_bus, trip_time_subway)
+    #        move_servo(result)
+        if i == 0:
+            shift_idx = 1
+        elif i == extras:
+            shift_idx = -1
+        i += shift_idx
+        second_counter = (second_counter + 1) % 86400
+        sleep(1)
+        #gpio.cleanup()
 finally:
-	gpio.cleanup()    
-	
+    gpio.cleanup()    
+    
 # moving while loop to a try statement. may help?
 #if __name__ == "__main__":
-#	try:
-#		while True:
-#			loop()
-#	finally:
-#		gpio.cleanup()
+#   try:
+#       while True:
+#           loop()
+#   finally:
+#       gpio.cleanup()
